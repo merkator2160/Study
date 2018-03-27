@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B50A49EB-5A87-4087-86F3-7F3D5A73BE4C}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CodeForces</RootNamespace>
+    <AssemblyName>CodeForces</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="GalaSoft.MvvmLight, Version=5.3.0.19026, Culture=neutral, PublicKeyToken=e7570ab207bcb616, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvvmLightLibs.5.3.0.0\lib\net45\GalaSoft.MvvmLight.dll</HintPath>
+    </Reference>
+    <Reference Include="GalaSoft.MvvmLight.Extras, Version=5.3.0.19032, Culture=neutral, PublicKeyToken=669f0b5e8f868abf, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvvmLightLibs.5.3.0.0\lib\net45\GalaSoft.MvvmLight.Extras.dll</HintPath>
+    </Reference>
+    <Reference Include="GalaSoft.MvvmLight.Platform, Version=5.3.0.19032, Culture=neutral, PublicKeyToken=5f873c45e98af8a1, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvvmLightLibs.5.3.0.0\lib\net45\GalaSoft.MvvmLight.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Mediator.Net, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Mediator.Net.1.1.23\lib\net45\Mediator.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Mediator.Net.Unity, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Mediator.Net.Unity.1.0.14\lib\net452\Mediator.Net.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Diagnostics.Tracing.EventSource, Version=1.1.28.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Diagnostics.Tracing.EventSource.Redist.1.1.28\lib\net46\Microsoft.Diagnostics.Tracing.EventSource.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.4.0.1\lib\net45\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.4.0.1\lib\net45\Microsoft.Practices.Unity.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.RegistrationByConvention, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.4.0.1\lib\net45\Microsoft.Practices.Unity.RegistrationByConvention.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PipelineNet, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\PipelineNet.0.0.1\lib\netstandard1.1\PipelineNet.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net, Version=2.3.3.0, Culture=neutral, PublicKeyToken=257b51d87d2e4d67, processorArchitecture=MSIL">
+      <HintPath>..\packages\protobuf-net.2.3.3\lib\net40\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="StackExchange.Redis, Version=1.2.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\StackExchange.Redis.1.2.6\lib\net46\StackExchange.Redis.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvvmLightLibs.5.3.0.0\lib\net45\System.Windows.Interactivity.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Units\Command\Commands\CommandBase.cs" />
+    <Compile Include="Units\Command\Commands\ConcreteCommand.cs" />
+    <Compile Include="Units\Command\Commands\EmptyCommand.cs" />
+    <Compile Include="Units\Command\Commands\MicrowaveCommand.cs" />
+    <Compile Include="Units\Command\Commands\TvSetCommand.cs" />
+    <Compile Include="Units\Command\Commands\VolumeCommand.cs" />
+    <Compile Include="Units\Command\CommandUnit.cs" />
+    <Compile Include="Units\Command\Interfaces\ICommand.cs" />
+    <Compile Include="Units\Command\Invoker.cs" />
+    <Compile Include="Units\Command\Microwave.cs" />
+    <Compile Include="Units\Command\MultiPult.cs" />
+    <Compile Include="Units\Command\Pult.cs" />
+    <Compile Include="Units\Command\Receiver.cs" />
+    <Compile Include="Units\Command\TvSet.cs" />
+    <Compile Include="Units\Command\Volume.cs" />
+    <Compile Include="Units\DiskDirectorySearchUnit.cs" />
+    <Compile Include="Units\Guids\GuidAttributeClass.cs" />
+    <Compile Include="Units\Guids\GuidAttributeUnit.cs" />
+    <Compile Include="Units\Interview\Models\D.cs" />
+    <Compile Include="Units\Interview\Models\TryCatchTask.cs" />
+    <Compile Include="Units\Interview\PerformanceTasks.cs" />
+    <Compile Include="Units\MediatorNet\Handlers\EventHandlerOne.cs" />
+    <Compile Include="Units\MediatorNet\Handlers\EventHandlerTwo.cs" />
+    <Compile Include="Units\MediatorNet\Handlers\GuidCommandHandler.cs" />
+    <Compile Include="Units\MediatorNet\Handlers\RequestHandler.cs" />
+    <Compile Include="Units\MediatorNet\MediatorNetUnit.cs" />
+    <Compile Include="Units\MediatorNet\Messages\EventMessage.cs" />
+    <Compile Include="Units\MediatorNet\Messages\GuidCommand.cs" />
+    <Compile Include="Units\MediatorNet\Messages\GuidRequest.cs" />
+    <Compile Include="Units\MediatorNet\Messages\GuidResponse.cs" />
+    <Compile Include="Units\MvvmLight\Handler.cs" />
+    <Compile Include="Units\MvvmLight\MvvmLightMediatorUnit.cs" />
+    <Compile Include="Units\PipelineNet\Handlers\ArgumentExceptionHandler.cs" />
+    <Compile Include="Units\PipelineNet\Handlers\OutOfMemoryExceptionHandler .cs" />
+    <Compile Include="Units\PipelineNet\PipelineNetUnit.cs" />
+    <Compile Include="Units\Protobuf\Models\Address.cs" />
+    <Compile Include="Units\Protobuf\Models\Person.cs" />
+    <Compile Include="Units\CodeForcesUnit.cs" />
+    <Compile Include="Units\EfNorthwindUnit.cs" />
+    <Compile Include="Units\Interview\InterviewUnit.cs" />
+    <Compile Include="Units\Interview\Models\A.cs" />
+    <Compile Include="Units\Interview\Models\B.cs" />
+    <Compile Include="Units\Interview\Models\C.cs" />
+    <Compile Include="Units\Interview\Models\Entity.cs" />
+    <Compile Include="Units\Redis\RedisUnit.cs" />
+    <Compile Include="Units\Semafore\Models\Reader.cs" />
+    <Compile Include="Units\Interview\Models\Task3Class.cs" />
+    <Compile Include="Units\Interview\Models\Task7.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Units\Protobuf\ProtobufSerializationUnite.cs" />
+    <Compile Include="Units\Semafore\SemaforeUnite.cs" />
+    <Compile Include="Units\SortedSetUnit.cs" />
+    <Fakes Include="Units\Xml\DocumentBuilder.cs" />
+    <Compile Include="Units\Threads\ThreadObject.cs" />
+    <Compile Include="Units\Threads\ThreadPoolUnit.cs" />
+    <Compile Include="Units\Xml\Models\DocumentBuilderVirtualCategory.cs" />
+    <Compile Include="Units\Xml\Models\Enums.cs" />
+    <Compile Include="Units\Xml\Models\PhotoInfo.cs" />
+    <Fakes Include="Units\Xml\PropertyValueWithNameEqualityComparer.cs" />
+    <Compile Include="Units\Xml\Models\VendorInfo.cs" />
+    <Compile Include="Units\Xml\Models\VirtualCategoryInfoWithProductsCount.cs" />
+    <Fakes Include="Units\Xml\YandexDocumentBuilder.cs" />
+    <Compile Include="Units\Xml\Models\YandexDocumentSettings.cs" />
+    <Compile Include="Units\YeldUnit.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataBase\DataBase.csproj">
+      <Project>{efedbaad-0a86-410a-9a0e-97c8f6a515ad}</Project>
+      <Name>DataBase</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
