@@ -1,0 +1,20 @@
+Theory:
+ - OOP (https://www.youtube.com/watch?v=Q_trb5A9PC0);
+ - SOLID (Interfaces, IoC);
+ - POCO;
+ - Third layer architecture;
+ - GRASP;
+ - REST;
+ - FIRST;
+
+
+Practice:
+1) Serialization, Json (JSON.NET);
+2) Delegates, lambda, extensions;
+3) LINQ;
+4) Generics <>;
+5) DI, (Unity);
+6) Entity Framework 7;
+7) Owin (Katana, Middleware);
+8) ASP.NET MVC;
+9) Unit tests (xUNit, MsTest, Moq);
