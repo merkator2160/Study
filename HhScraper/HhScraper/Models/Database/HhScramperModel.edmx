@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="HhScramperModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Settings">
+          <Key>
+            <PropertyRef Name="SettingsID" />
+          </Key>
+          <Property Name="UrlTb" Type="varchar(max)" />
+          <Property Name="XPathTb" Type="varchar(max)" />
+          <Property Name="UseExpressionsCb" Type="bit" />
+          <Property Name="CollectDataRb" Type="bit" />
+          <Property Name="CollectLinksRb" Type="bit" />
+          <Property Name="SettingsID" Type="int" Nullable="false" />
+          <Property Name="AttributeTb" Type="varchar(max)" />
+          <Property Name="DelayDeviationTb" Type="varchar(max)" />
+          <Property Name="DelayPodiumTb" Type="varchar(max)" />
+        </EntityType>
+        <EntityType Name="Vacancies">
+          <Key>
+            <PropertyRef Name="VacancyID" />
+          </Key>
+          <Property Name="VacancyID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="VacancyPageUrl" Type="varchar(max)" Nullable="false" />
+          <Property Name="VacancyPageHtml" Type="varchar(max)" Nullable="false" />
+          <Property Name="ScrampingDateTime" Type="varchar(max)" Nullable="false" />
+          <Property Name="VacancyPublicationDate" Type="varchar(max)" Nullable="false" />
+          <Property Name="DesiredPosition" Type="varchar(max)" Nullable="false" />
+          <Property Name="Salary" Type="varchar(max)" Nullable="false" />
+          <Property Name="VacancyPhotoUrl" Type="varchar(max)" Nullable="false" />
+          <Property Name="FIO" Type="varchar(max)" Nullable="false" />
+          <Property Name="AboutMe" Type="varchar(max)" Nullable="false" />
+          <Property Name="WorkExperience" Type="varchar(max)" Nullable="false" />
+          <Property Name="Age" Type="varchar(max)" Nullable="false" />
+          <Property Name="Phone" Type="varchar(max)" Nullable="false" />
+          <Property Name="Gender" Type="varchar(max)" Nullable="false" />
+          <Property Name="Address" Type="varchar(max)" Nullable="false" />
+          <Property Name="FieldOfActivity" Type="varchar(max)" Nullable="false" />
+          <Property Name="MailDeliveryStatus" Type="int" />
+          <Property Name="ReadyToBusinessTrip" Type="varchar(max)" Nullable="false" />
+          <Property Name="EMail" Type="varchar(max)" Nullable="false" />
+          <Property Name="WorkHistory" Type="varchar(max)" Nullable="false" />
+          <Property Name="RelativeFilePath" Type="varchar(max)" Nullable="false" />
+          <Property Name="HhVacancyID" Type="varchar(max)" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="HhScramperModelStoreContainer">
+          <EntitySet Name="Settings" EntityType="Self.Settings" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Vacancies" EntityType="Self.Vacancies" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="HhScramperModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Setting">
+          <Key>
+            <PropertyRef Name="SettingsID" />
+          </Key>
+          <Property Name="UrlTb" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="XPathTb" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="UseExpressionsCb" Type="Boolean" />
+          <Property Name="CollectDataRb" Type="Boolean" />
+          <Property Name="CollectLinksRb" Type="Boolean" />
+          <Property Name="SettingsID" Type="Int32" Nullable="false" />
+          <Property Name="AttributeTb" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="DelayDeviationTb" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="DelayPodiumTb" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="Vacancy">
+          <Key>
+            <PropertyRef Name="VacancyID" />
+          </Key>
+          <Property Name="VacancyID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="VacancyPageUrl" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" DefaultValue="" />
+          <Property Name="VacancyPageHtml" Type="String" FixedLength="false" MaxLength="Max" Unicode="false" Nullable="false" DefaultValue="" />
+          <Property Name="ScrampingDateTime" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" DefaultValue="" />
+          <Property Name="VacancyPublicationDate" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" DefaultValue="" />
+          <Property Name="DesiredPosition" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" DefaultValue="" />
+          <Property Name="Salary" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" DefaultValue="" />
+          <Property Name="VacancyPhotoUrl" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" DefaultValue="" />
+          <Property Name="FIO" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" DefaultValue="" />
+          <Property Name="AboutMe" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" DefaultValue="" />
+          <Property Name="WorkExperience" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" DefaultValue="" />
+          <Property Name="Age" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" DefaultValue="" />
+          <Property Name="Phone" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" DefaultValue="" />
+          <Property Name="Gender" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" DefaultValue="" />
+          <Property Name="Address" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" DefaultValue="" />
+          <Property Name="FieldOfActivity" Type="String" Unicode="false" MaxLength="Max" FixedLength="false" Nullable="false" DefaultValue="" />
+          <Property Name="MailDeliveryStatus" Type="Int32" Nullable="true" DefaultValue="0" />
+          <Property Name="ReadyToBusinessTrip" Type="String" FixedLength="false" MaxLength="Max" Unicode="false" Nullable="false" DefaultValue="" />
+          <Property Name="EMail" Type="String" Nullable="false" DefaultValue="" FixedLength="false" MaxLength="Max" Unicode="false" />
+          <Property Name="WorkHistory" Type="String" Nullable="false" DefaultValue="" FixedLength="false" Unicode="false" MaxLength="Max" />
+          <Property Name="RelativeFilePath" Type="String" Nullable="false" DefaultValue="" FixedLength="false" MaxLength="Max" Unicode="false" />
+          <Property Name="HhVacancyID" Type="String" Nullable="false" DefaultValue="" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="HhScramperEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Settings" EntityType="Self.Setting" />
+          <EntitySet Name="Vacancies" EntityType="Self.Vacancy" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="HhScramperModelStoreContainer" CdmEntityContainer="HhScramperEntities">
+    <EntitySetMapping Name="Settings">
+      <EntityTypeMapping TypeName="IsTypeOf(HhScramperModel.Setting)">
+        <MappingFragment StoreEntitySet="Settings">
+          <ScalarProperty Name="SettingsID" ColumnName="SettingsID" />
+          <ScalarProperty Name="UrlTb" ColumnName="UrlTb" />
+          <ScalarProperty Name="XPathTb" ColumnName="XPathTb" />
+          <ScalarProperty Name="UseExpressionsCb" ColumnName="UseExpressionsCb" />
+          <ScalarProperty Name="CollectDataRb" ColumnName="CollectDataRb" />
+          <ScalarProperty Name="CollectLinksRb" ColumnName="CollectLinksRb" />
+          <ScalarProperty Name="AttributeTb" ColumnName="AttributeTb" />
+          <ScalarProperty Name="DelayDeviationTb" ColumnName="DelayDeviationTb" />
+          <ScalarProperty Name="DelayPodiumTb" ColumnName="DelayPodiumTb" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Vacancies">
+      <EntityTypeMapping TypeName="IsTypeOf(HhScramperModel.Vacancy)">
+        <MappingFragment StoreEntitySet="Vacancies">
+          <ScalarProperty Name="VacancyID" ColumnName="VacancyID" />
+          <ScalarProperty Name="VacancyPageUrl" ColumnName="VacancyPageUrl" />
+          <ScalarProperty Name="VacancyPageHtml" ColumnName="VacancyPageHtml" />
+          <ScalarProperty Name="ScrampingDateTime" ColumnName="ScrampingDateTime" />
+          <ScalarProperty Name="VacancyPublicationDate" ColumnName="VacancyPublicationDate" />
+          <ScalarProperty Name="DesiredPosition" ColumnName="DesiredPosition" />
+          <ScalarProperty Name="Salary" ColumnName="Salary" />
+          <ScalarProperty Name="VacancyPhotoUrl" ColumnName="VacancyPhotoUrl" />
+          <ScalarProperty Name="FIO" ColumnName="FIO" />
+          <ScalarProperty Name="AboutMe" ColumnName="AboutMe" />
+          <ScalarProperty Name="WorkExperience" ColumnName="WorkExperience" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="FieldOfActivity" ColumnName="FieldOfActivity" />
+          <ScalarProperty Name="MailDeliveryStatus" ColumnName="MailDeliveryStatus" />
+          <ScalarProperty Name="ReadyToBusinessTrip" ColumnName="ReadyToBusinessTrip" />
+          <ScalarProperty Name="EMail" ColumnName="EMail" />
+          <ScalarProperty Name="WorkHistory" ColumnName="WorkHistory" />
+          <ScalarProperty Name="RelativeFilePath" ColumnName="RelativeFilePath" />
+          <ScalarProperty Name="HhVacancyID" ColumnName="HhVacancyID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="False" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

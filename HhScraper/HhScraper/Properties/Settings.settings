@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ScramperWPF.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ServerSMTP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">smtp.inbox.ru</Value>
+    </Setting>
+    <Setting Name="PortSMTP" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">25</Value>
+    </Setting>
+    <Setting Name="LoginSMTP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">errorreportmailsender@inbox.ru</Value>
+    </Setting>
+    <Setting Name="PasswordSMTP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">8a696df615e9ff29aa1332af519b0dba</Value>
+    </Setting>
+    <Setting Name="ProgrammerEmail" Type="System.String" Scope="User">
+      <Value Profile="(Default)">2160@inbox.ru</Value>
+    </Setting>
+    <Setting Name="FromEmail" Type="System.String" Scope="User">
+      <Value Profile="(Default)">errorreportmailsender@inbox.ru</Value>
+    </Setting>
+    <Setting Name="EmailBudyEncoding" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Windows-1254</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

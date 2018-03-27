@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HhScraper", "HhScraper\HhScraper.csproj", "{77DE188D-7F55-482E-BEA7-69822345B480}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{2A6CEFF4-ADC4-47C5-B71E-D58C9CDFD2F5}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		clean-with-scc.bat = clean-with-scc.bat
+		parser.pdf = parser.pdf
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77DE188D-7F55-482E-BEA7-69822345B480}.Debug|x86.ActiveCfg = Debug|x86
+		{77DE188D-7F55-482E-BEA7-69822345B480}.Debug|x86.Build.0 = Debug|x86
+		{77DE188D-7F55-482E-BEA7-69822345B480}.Release|x86.ActiveCfg = Release|x86
+		{77DE188D-7F55-482E-BEA7-69822345B480}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDF6CEB3-F82E-4929-8462-F353C854247F}
+	EndGlobalSection
+EndGlobal
