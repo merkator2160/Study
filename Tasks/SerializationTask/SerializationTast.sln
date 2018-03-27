@@ -7,6 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializationTast", "Serial
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{D0D79C8F-B694-442E-B403-7631B3E388FF}"
 	ProjectSection(SolutionItems) = preProject
+		clean-with-scc.bat = clean-with-scc.bat
 		Serialization task.txt = Serialization task.txt
 	EndProjectSection
 EndProject
