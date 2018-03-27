@@ -1,0 +1,14 @@
+﻿<Window x:Class="DirectoryTreeView.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Просмотр файловой системы" Height="350" Width="525">
+    
+    <Grid Margin="3">
+        
+        <TreeView Name="treeFileSystem" 
+                  TreeViewItem.Expanded="item_Expanded" 
+                  MouseDoubleClick="treeFileSystem_MouseDoubleClick">
+        </TreeView>
+        
+    </Grid>
+</Window>

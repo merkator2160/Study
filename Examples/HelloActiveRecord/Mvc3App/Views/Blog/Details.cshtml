@@ -1,0 +1,22 @@
+﻿@model Model.Blog
+
+@{
+    ViewBag.Title = "ViewPage1";
+}
+
+<h2>ViewPage1</h2>
+
+<fieldset>
+    <legend>Blog</legend>
+
+    <div class="display-label">Name</div>
+    <div class="display-field">@Model.Name</div>
+
+    <div class="display-label">Author</div>
+    <div class="display-field">@Model.Author</div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+

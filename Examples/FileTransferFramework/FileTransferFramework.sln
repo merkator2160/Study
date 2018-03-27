@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{24B46850-DC8A-4FEF-8A3A-2E34FF8BBAE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileTrainsferFramework.Server", "Server\FileTrainsferFramework.Server\FileTrainsferFramework.Server.csproj", "{A8AC3139-A834-4EBC-9BB7-93E00D0AE600}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{6C9E0725-F944-4A33-A55F-94F7D36CCA68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileTransferFramework.Client", "Client\FileTransferFramework.Client\FileTransferFramework.Client.csproj", "{59DC7BC2-A2D2-4065-95F0-B853599EBF03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8AC3139-A834-4EBC-9BB7-93E00D0AE600}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8AC3139-A834-4EBC-9BB7-93E00D0AE600}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8AC3139-A834-4EBC-9BB7-93E00D0AE600}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8AC3139-A834-4EBC-9BB7-93E00D0AE600}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59DC7BC2-A2D2-4065-95F0-B853599EBF03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59DC7BC2-A2D2-4065-95F0-B853599EBF03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59DC7BC2-A2D2-4065-95F0-B853599EBF03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59DC7BC2-A2D2-4065-95F0-B853599EBF03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A8AC3139-A834-4EBC-9BB7-93E00D0AE600} = {24B46850-DC8A-4FEF-8A3A-2E34FF8BBAE1}
+		{59DC7BC2-A2D2-4065-95F0-B853599EBF03} = {6C9E0725-F944-4A33-A55F-94F7D36CCA68}
+	EndGlobalSection
+EndGlobal

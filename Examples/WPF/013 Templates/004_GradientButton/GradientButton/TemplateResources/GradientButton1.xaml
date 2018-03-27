@@ -1,0 +1,85 @@
+﻿<!--ResourceDictionary был добавлен с помощью Add -> New Item -> Resource Dictionary (WPF)
+    Определяет хэш-таблицу или реализацию словаря с ресурсами WPF, которые используются компонентами и другими элементами приложения WPF
+    Эти ресурсы будут использоваться шаблонами.-->
+
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <!--Если мышь над контролом-->
+    <RadialGradientBrush 
+        x:Key="HighlightBackground"
+        RadiusX="1"
+        RadiusY="5"
+        GradientOrigin="0.5,0.3">
+            <GradientStop Color="White" Offset="0" />
+            <GradientStop Color="Blue" Offset=".4" />
+    </RadialGradientBrush>
+    
+    <!--При нажатии на кнопку-->
+    <RadialGradientBrush 
+        x:Key="PressedBackground"
+        RadiusX="1" RadiusY="5"
+        GradientOrigin="0.5,0.3">
+            <GradientStop Color="White" Offset="0" />
+            <GradientStop Color="Blue" Offset="1" />
+    </RadialGradientBrush>
+
+    <!--Кисти-->
+    <SolidColorBrush x:Key="DefaultBackground" Color="Blue"></SolidColorBrush>
+    <SolidColorBrush x:Key="DisabledBackground" Color="Gray"></SolidColorBrush>
+
+    <!--Градиент для Border-->
+    <RadialGradientBrush x:Key="BorderBrush"
+                         RadiusX="1"
+                         RadiusY="5"
+                         GradientOrigin="0.5,0.3">
+        <GradientStop Color="White" Offset="0" />
+        <GradientStop Color="Blue" Offset="1" />
+    </RadialGradientBrush>
+
+    <!--Шаблон кнопки-->
+    <ControlTemplate x:Key="GradientButtonTemplate" 
+                     TargetType="{x:Type Button}">
+        <Border 
+            Name="Border" 
+            BorderBrush="{StaticResource BorderBrush}" 
+            BorderThickness="2"
+            CornerRadius="2"
+            Background="{StaticResource DefaultBackground}"
+            TextBlock.Foreground="White">
+            <Grid>
+                <!--Для отображения клавиатурного фокуса.-->
+                <Rectangle 
+                    Name="FocusCue"
+                    Visibility="Hidden" 
+                    Stroke="White"
+                    StrokeThickness="2"
+                    StrokeDashArray="1 2"
+                    SnapsToDevicePixels="True">
+                </Rectangle>
+                <ContentPresenter 
+                    Margin="{TemplateBinding Padding}"
+                    RecognizesAccessKey="True">
+                </ContentPresenter>
+            </Grid>
+        </Border>
+        <ControlTemplate.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter TargetName="Border" Property="Background" Value="{StaticResource HighlightBackground}" />
+            </Trigger>
+            <Trigger Property="IsPressed" Value="True">
+                <Setter TargetName="Border" Property="Background" Value="{StaticResource PressedBackground}" />
+            </Trigger>
+            <Trigger Property="IsKeyboardFocused" Value="True">
+                <Setter TargetName="FocusCue" Property="Visibility" Value="Visible"></Setter>
+            </Trigger>
+            <Trigger Property="IsEnabled" Value="False">
+                <Setter TargetName="Border" Property="Background" Value="{StaticResource DisabledBackground}"></Setter>
+            </Trigger>
+        </ControlTemplate.Triggers>
+    </ControlTemplate>
+
+    <Style TargetType="{x:Type Button}">
+        <Setter Property="Control.Template" Value="{StaticResource GradientButtonTemplate}"></Setter>
+    </Style> 
+</ResourceDictionary>

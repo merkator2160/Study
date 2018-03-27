@@ -1,0 +1,120 @@
+body { 
+margin:0px; 
+}
+
+.headApBoxes {
+	text-align: center;
+	vertical-align: bottom;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	color:#f00;
+   -webkit-transition:color 500ms ease-in;
+   -moz-transition:color 500ms ease-in;
+   -o-transition:color 500ms ease-in;
+   transition:color 500ms ease-in;
+   text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+}
+#apDiv1 {
+	position: absolute;
+	left: 9px;
+	top: 14px;
+	width: 225px;
+	height: 80px;
+	z-index: 1;
+	padding-top: 40px;
+}
+
+#apDiv2 {
+	position: absolute;
+	left: 275px;
+	top: 27px;
+	width: 222px;
+	height: 80px;
+	z-index: 2;
+	padding-top: 15px;
+}
+#apDiv3 {
+	position: absolute;
+	left: 592px;
+	top: 81px;
+	width: 222px;
+	height: 56px;
+	z-index: 3;
+	padding-top: 40px;
+}
+#apDiv4 {
+	position: absolute;
+	left: 596px;
+	top: 234px;
+	width: 221px;
+	height: 64px;
+	z-index: 4;
+	padding-top: 30px;
+}
+#apDiv5 {
+	position: absolute;
+	left: 923px;
+	top: 285px;
+	width: 222px;
+	height: 74px;
+	z-index: 5;
+	padding-top: 20px;
+}
+#apDiv6 {
+	position: absolute;
+	left: 1120px;
+	top: 45px;
+	width: 357px;
+	height: 64px;
+	z-index: 6;
+	padding-top: 10px;
+}
+#apDiv7 {
+	position: absolute;
+	left: 1176px;
+	top: 171px;
+	width: 277px;
+	height: 67px;
+	z-index: 7;
+	padding-top: 15px;
+}
+#apDiv8 {
+	position: absolute;
+	left: 1224px;
+	top: 299px;
+	width: 197px;
+	height: 58px;
+	z-index: 8;
+	padding-top: 20px;
+}
+#apDiv9 {
+	position: absolute;
+	left: 944px;
+	top: 168px;
+	width: 198px;
+	height: 56px;
+	z-index: 9;
+	padding-top: 20px;
+}
+#headContainer {
+	position: relative;
+	width: 1482px;
+	height: 402px;
+	background-image: url(../Resources/ollon_head.jpg);
+}
+.mainContainer {
+	overflow: visible;
+	border: medium solid #000;
+	height: 800px;
+	width: 1482px;
+	position: relative;
+	left: auto;
+	right: auto;
+	margin-right: auto;
+	margin-left: auto;
+}

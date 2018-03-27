@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="FutureRobot.FuroWare.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="VoiceDB" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ko-kr,Microsoft,en-us,Microsoft,de-de,Microsoft,es-es,Microsoft,fr-fr,Microsoft,it-it,Microsoft,ja-jp,Microsoft,zh-cn,Microsoft,Heather22k_HQ,Acapela,Kenny22k_HQ,Acapela,Laura22k_HQ,Acapela,Micah22k_HQ,Acapela,Nelly22k_HQ,Acapela,Ryan22k_HQ,Acapela,Saul22k_HQ,Acapela,Tracy22k_HQ,Acapela,Will22k_HQ,Acapela</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

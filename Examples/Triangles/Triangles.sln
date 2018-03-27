@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{3F2937A8-DEB0-4A01-95A1-C1097561A04D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriangleDeterminationExtService", "AngleDetermination\TriangleDeterminationExtService.csproj", "{688777A1-CA68-4BF6-B74E-9F4449F80FAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{6F47DB8E-F3D3-4EC8-980B-FBBFBBB9BEE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triangles", "AngleType\Triangles.csproj", "{2300FC23-4D88-47C6-B2D2-C36B57BA1B1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuisinessLogic", "BuisinessLogic\BuisinessLogic.csproj", "{9E1AD494-9180-494C-9865-B769722F1831}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triangles.Tests", "TriangleType.Tests\Triangles.Tests.csproj", "{6467B40E-E538-4BB1-840F-A1EE7901DCAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{688777A1-CA68-4BF6-B74E-9F4449F80FAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{688777A1-CA68-4BF6-B74E-9F4449F80FAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{688777A1-CA68-4BF6-B74E-9F4449F80FAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{688777A1-CA68-4BF6-B74E-9F4449F80FAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F47DB8E-F3D3-4EC8-980B-FBBFBBB9BEE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F47DB8E-F3D3-4EC8-980B-FBBFBBB9BEE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F47DB8E-F3D3-4EC8-980B-FBBFBBB9BEE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F47DB8E-F3D3-4EC8-980B-FBBFBBB9BEE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2300FC23-4D88-47C6-B2D2-C36B57BA1B1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2300FC23-4D88-47C6-B2D2-C36B57BA1B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2300FC23-4D88-47C6-B2D2-C36B57BA1B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2300FC23-4D88-47C6-B2D2-C36B57BA1B1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E1AD494-9180-494C-9865-B769722F1831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E1AD494-9180-494C-9865-B769722F1831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E1AD494-9180-494C-9865-B769722F1831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E1AD494-9180-494C-9865-B769722F1831}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6467B40E-E538-4BB1-840F-A1EE7901DCAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6467B40E-E538-4BB1-840F-A1EE7901DCAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6467B40E-E538-4BB1-840F-A1EE7901DCAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6467B40E-E538-4BB1-840F-A1EE7901DCAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{688777A1-CA68-4BF6-B74E-9F4449F80FAA} = {3F2937A8-DEB0-4A01-95A1-C1097561A04D}
+		{6F47DB8E-F3D3-4EC8-980B-FBBFBBB9BEE4} = {3F2937A8-DEB0-4A01-95A1-C1097561A04D}
+		{9E1AD494-9180-494C-9865-B769722F1831} = {3F2937A8-DEB0-4A01-95A1-C1097561A04D}
+	EndGlobalSection
+EndGlobal

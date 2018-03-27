@@ -1,0 +1,48 @@
+﻿<Window x:Class="BindingToSQL.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Book Database" Height="350" Width="512" SizeToContent="Height">
+    <Grid Background="BlanchedAlmond" Name="gridMain">
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="136*" />
+            <ColumnDefinition Width="367*" />
+        </Grid.ColumnDefinitions>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="170*" />
+        </Grid.RowDefinitions>
+
+        <ListBox Name="listBooks" 
+                 Visibility="Collapsed" 
+                 Grid.ColumnSpan="2" 
+                 Height="90" 
+                 Margin="10"
+                 SelectionChanged="listBooks_SelectionChanged">
+        </ListBox>
+
+        <StackPanel Grid.Row="1" Grid.ColumnSpan="2" 
+                    Orientation="Horizontal" Background="White">
+            
+            <TextBox Name="textBoxID" VerticalAlignment="Center" Width="120" Margin="10,0,10,0" />
+            <Button Content="Получить книгу по ID" Name="buttonGetBook" VerticalAlignment="Center" Padding="2" Click="buttonGetBook_Click" />
+            <Button Content="Обновить данные в базе" Name="UpdateBook" Padding="2" VerticalAlignment="Center" Margin="10,0,0,0" Click="UpdateBook_Click"></Button>
+            <Button Content="Список" Name="buttonShowList" Margin="10,0,0,0" Padding="2" VerticalAlignment="Center" Click="buttonShowList_Click" />
+        </StackPanel>
+        
+        <!--Для полей ввода установленна привязка к свойствам класса Book.
+        Как источник данных объект Book будет устанавливатся из кода.-->
+        <TextBox Text="{Binding Title}" HorizontalAlignment="Stretch" Name="textBoxTitle" VerticalAlignment="Stretch" Grid.Row="2" Margin="5" Grid.Column="1" />
+        <TextBox Text="{Binding Author}" HorizontalAlignment="Stretch" Name="textBoxAuthor" VerticalAlignment="Stretch" Grid.Row="3" Margin="5" Grid.Column="1" />
+        <TextBox Text="{Binding Description}" TextWrapping="Wrap" HorizontalAlignment="Stretch" Name="textBoxDesc" VerticalAlignment="Stretch" Grid.Row="4" Margin="5" Grid.Column="1" MinHeight="150" />
+        
+        <TextBlock Grid.Row="2" HorizontalAlignment="Center" Text="Книга" VerticalAlignment="Center" />
+        <TextBlock Grid.Row="3" HorizontalAlignment="Center" Text="Автор" VerticalAlignment="Center" />
+        <TextBlock Grid.Row="4" HorizontalAlignment="Center" Text="Описание" VerticalAlignment="Center" />
+        
+    </Grid>
+</Window>

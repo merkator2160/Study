@@ -1,0 +1,3658 @@
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 4 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+ I= 2  1 / 3  Q= 0.333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n= 0  k= 1 
+     -   m=-2  n= 2 
+ I= 3  1 / 2  Q= 0.5 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+ I= 4  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 8 
+ Общее количество комб. частот KolPlusAll= 12 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 7 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 4   KmaxMinus= 2 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=  ---  n=  ---  
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 5  Q= 0.2 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 4  Q= 0.25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 4  1 / 3  Q= 0.333333333333333 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 5  1 / 2  Q= 0.5 
+ KmaxPlus= 2   KmaxMinus= 0 
+     +   m= 1  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 6  2 / 3  Q= 0.666666666666667 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 7  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 9 
+ Общее количество комб. частот KolMinusAll= 16 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 4 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+ I= 2  1 / 3  Q= 0.333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n= 0  k= 1 
+     -   m=-2  n= 2 
+ I= 3  1 / 2  Q= 0.5 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+ I= 4  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 8 
+ Общее количество комб. частот KolPlusAll= 12 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 7 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 4   KmaxMinus= 2 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=  ---  n=  ---  
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 5  Q= 0.2 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 4  Q= 0.25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 4  1 / 3  Q= 0.333333333333333 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 5  1 / 2  Q= 0.5 
+ KmaxPlus= 2   KmaxMinus= 0 
+     +   m= 1  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 6  2 / 3  Q= 0.666666666666667 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 7  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 9 
+ Общее количество комб. частот KolMinusAll= 16 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 4 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+ I= 2  1 / 3  Q= 0.333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n= 0  k= 1 
+     -   m=-2  n= 2 
+ I= 3  1 / 2  Q= 0.5 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+ I= 4  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 8 
+ Общее количество комб. частот KolPlusAll= 12 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 7 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 4   KmaxMinus= 2 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=  ---  n=  ---  
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 5  Q= 0.2 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 4  Q= 0.25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 4  1 / 3  Q= 0.333333333333333 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 5  1 / 2  Q= 0.5 
+ KmaxPlus= 2   KmaxMinus= 0 
+     +   m= 1  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 6  2 / 3  Q= 0.666666666666667 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 7  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 9 
+ Общее количество комб. частот KolMinusAll= 16 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 4 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+ I= 2  1 / 3  Q= 0.333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n= 0  k= 1 
+     -   m=-2  n= 2 
+ I= 3  1 / 2  Q= 0.5 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+ I= 4  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 8 
+ Общее количество комб. частот KolPlusAll= 12 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 7 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 4   KmaxMinus= 2 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=  ---  n=  ---  
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 5  Q= 0.2 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 4  Q= 0.25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 4  1 / 3  Q= 0.333333333333333 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 5  1 / 2  Q= 0.5 
+ KmaxPlus= 2   KmaxMinus= 0 
+     +   m= 1  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 6  2 / 3  Q= 0.666666666666667 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 7  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 9 
+ Общее количество комб. частот KolMinusAll= 16 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 4 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+ I= 2  1 / 3  Q= 0.333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n= 0  k= 1 
+     -   m=-2  n= 2 
+ I= 3  1 / 2  Q= 0.5 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+ I= 4  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 8 
+ Общее количество комб. частот KolPlusAll= 12 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 7 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 4   KmaxMinus= 2 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=  ---  n=  ---  
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 5  Q= 0.2 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 4  Q= 0.25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 4  1 / 3  Q= 0.333333333333333 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 5  1 / 2  Q= 0.5 
+ KmaxPlus= 2   KmaxMinus= 0 
+     +   m= 1  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 6  2 / 3  Q= 0.666666666666667 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 7  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 9 
+ Общее количество комб. частот KolMinusAll= 16 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 4 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+ I= 2  1 / 3  Q= 0.333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n= 0  k= 1 
+     -   m=-2  n= 2 
+ I= 3  1 / 2  Q= 0.5 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+ I= 4  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 8 
+ Общее количество комб. частот KolPlusAll= 12 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 7 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 4   KmaxMinus= 2 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=  ---  n=  ---  
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 5  Q= 0.2 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 4  Q= 0.25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 4  1 / 3  Q= 0.333333333333333 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 5  1 / 2  Q= 0.5 
+ KmaxPlus= 2   KmaxMinus= 0 
+     +   m= 1  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 6  2 / 3  Q= 0.666666666666667 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 7  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 9 
+ Общее количество комб. частот KolMinusAll= 16 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 4 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+ I= 2  1 / 3  Q= 0.333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n= 0  k= 1 
+     -   m=-2  n= 2 
+ I= 3  1 / 2  Q= 0.5 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+ I= 4  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 8 
+ Общее количество комб. частот KolPlusAll= 12 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 7 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 4   KmaxMinus= 2 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=  ---  n=  ---  
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 5  Q= 0.2 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 4  Q= 0.25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 4  1 / 3  Q= 0.333333333333333 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 5  1 / 2  Q= 0.5 
+ KmaxPlus= 2   KmaxMinus= 0 
+     +   m= 1  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 6  2 / 3  Q= 0.666666666666667 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 7  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 9 
+ Общее количество комб. частот KolMinusAll= 16 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 4 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+ I= 2  1 / 3  Q= 0.333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n= 0  k= 1 
+     -   m=-2  n= 2 
+ I= 3  1 / 2  Q= 0.5 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+ I= 4  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 8 
+ Общее количество комб. частот KolPlusAll= 12 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 7 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 4   KmaxMinus= 2 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=  ---  n=  ---  
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 5  Q= 0.2 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 4  Q= 0.25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 4  1 / 3  Q= 0.333333333333333 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 5  1 / 2  Q= 0.5 
+ KmaxPlus= 2   KmaxMinus= 0 
+     +   m= 1  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 6  2 / 3  Q= 0.666666666666667 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 7  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 9 
+ Общее количество комб. частот KolMinusAll= 16 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 4 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+ I= 2  1 / 3  Q= 0.333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n= 0  k= 1 
+     -   m=-2  n= 2 
+ I= 3  1 / 2  Q= 0.5 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+ I= 4  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 8 
+ Общее количество комб. частот KolPlusAll= 12 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 7 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 4   KmaxMinus= 2 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=  ---  n=  ---  
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 5  Q= 0.2 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 4  Q= 0.25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 4  1 / 3  Q= 0.333333333333333 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 5  1 / 2  Q= 0.5 
+ KmaxPlus= 2   KmaxMinus= 0 
+     +   m= 1  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 6  2 / 3  Q= 0.666666666666667 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 7  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 9 
+ Общее количество комб. частот KolMinusAll= 16 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 4 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+ I= 2  1 / 3  Q= 0.333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n= 0  k= 1 
+     -   m=-2  n= 2 
+ I= 3  1 / 2  Q= 0.5 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+ I= 4  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 8 
+ Общее количество комб. частот KolPlusAll= 12 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 7 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 4   KmaxMinus= 2 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=  ---  n=  ---  
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 5  Q= 0.2 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 4  Q= 0.25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 4  1 / 3  Q= 0.333333333333333 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 5  1 / 2  Q= 0.5 
+ KmaxPlus= 2   KmaxMinus= 0 
+     +   m= 1  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 6  2 / 3  Q= 0.666666666666667 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 7  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 9 
+ Общее количество комб. частот KolMinusAll= 16 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 4 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+ I= 2  1 / 3  Q= 0.333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n= 0  k= 1 
+     -   m=-2  n= 2 
+ I= 3  1 / 2  Q= 0.5 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+ I= 4  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 8 
+ Общее количество комб. частот KolPlusAll= 12 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 7 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 4   KmaxMinus= 2 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=  ---  n=  ---  
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 5  Q= 0.2 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 4  Q= 0.25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 4  1 / 3  Q= 0.333333333333333 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 5  1 / 2  Q= 0.5 
+ KmaxPlus= 2   KmaxMinus= 0 
+     +   m= 1  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 6  2 / 3  Q= 0.666666666666667 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 7  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 9 
+ Общее количество комб. частот KolMinusAll= 16 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 4 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+ I= 2  1 / 3  Q= 0.333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n= 0  k= 1 
+     -   m=-2  n= 2 
+ I= 3  1 / 2  Q= 0.5 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+ I= 4  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 8 
+ Общее количество комб. частот KolPlusAll= 12 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 7 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 4   KmaxMinus= 2 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=  ---  n=  ---  
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 5  Q= 0.2 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 4  Q= 0.25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 4  1 / 3  Q= 0.333333333333333 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 5  1 / 2  Q= 0.5 
+ KmaxPlus= 2   KmaxMinus= 0 
+     +   m= 1  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 6  2 / 3  Q= 0.666666666666667 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 7  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 9 
+ Общее количество комб. частот KolMinusAll= 16 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 4 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+ I= 2  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n= 0  k= 1 
+     -   m=-2  n= 2 
+ I= 3  1 / 2  Q= 0,5 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+ I= 4  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 8 
+ Общее количество комб. частот KolPlusAll= 12 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 7 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 4   KmaxMinus= 2 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=  ---  n=  ---  
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 5  Q= 0,2 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 4  Q= 0,25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 4  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 5  1 / 2  Q= 0,5 
+ KmaxPlus= 2   KmaxMinus= 0 
+     +   m= 1  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 6  2 / 3  Q= 0,666666666666667 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 7  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 9 
+ Общее количество комб. частот KolMinusAll= 16 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 4 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+ I= 2  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n= 0  k= 1 
+     -   m=-2  n= 2 
+ I= 3  1 / 2  Q= 0,5 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+ I= 4  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 8 
+ Общее количество комб. частот KolPlusAll= 12 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 7 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 4   KmaxMinus= 2 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=  ---  n=  ---  
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 5  Q= 0,2 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 4  Q= 0,25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 4  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 5  1 / 2  Q= 0,5 
+ KmaxPlus= 2   KmaxMinus= 0 
+     +   m= 1  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 6  2 / 3  Q= 0,666666666666667 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 7  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 9 
+ Общее количество комб. частот KolMinusAll= 16 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 4 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+ I= 2  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n= 0  k= 1 
+     -   m=-2  n= 2 
+ I= 3  1 / 2  Q= 0,5 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+ I= 4  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 8 
+ Общее количество комб. частот KolPlusAll= 12 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 7 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 4   KmaxMinus= 2 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=  ---  n=  ---  
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 5  Q= 0,2 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 4  Q= 0,25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 4  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 5  1 / 2  Q= 0,5 
+ KmaxPlus= 2   KmaxMinus= 0 
+     +   m= 1  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 6  2 / 3  Q= 0,666666666666667 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 7  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 9 
+ Общее количество комб. частот KolMinusAll= 16 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 4 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+ I= 2  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n= 0  k= 1 
+     -   m=-2  n= 2 
+ I= 3  1 / 2  Q= 0,5 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+ I= 4  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 8 
+ Общее количество комб. частот KolPlusAll= 12 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 7 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 4   KmaxMinus= 2 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=  ---  n=  ---  
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 5  Q= 0,2 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 4  Q= 0,25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 4  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 5  1 / 2  Q= 0,5 
+ KmaxPlus= 2   KmaxMinus= 0 
+     +   m= 1  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 6  2 / 3  Q= 0,666666666666667 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 7  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 9 
+ Общее количество комб. частот KolMinusAll= 16 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 4 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+ I= 2  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n= 0  k= 1 
+     -   m=-2  n= 2 
+ I= 3  1 / 2  Q= 0,5 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+ I= 4  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 8 
+ Общее количество комб. частот KolPlusAll= 12 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 7 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 4   KmaxMinus= 2 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=  ---  n=  ---  
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 5  Q= 0,2 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 4  Q= 0,25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 4  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 5  1 / 2  Q= 0,5 
+ KmaxPlus= 2   KmaxMinus= 0 
+     +   m= 1  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 6  2 / 3  Q= 0,666666666666667 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 7  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 9 
+ Общее количество комб. частот KolMinusAll= 16 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 4 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+ I= 2  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n= 0  k= 1 
+     -   m=-2  n= 2 
+ I= 3  1 / 2  Q= 0,5 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+ I= 4  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 8 
+ Общее количество комб. частот KolPlusAll= 12 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 7 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 4   KmaxMinus= 2 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=  ---  n=  ---  
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 5  Q= 0,2 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 4  Q= 0,25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 4  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 5  1 / 2  Q= 0,5 
+ KmaxPlus= 2   KmaxMinus= 0 
+     +   m= 1  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 6  2 / 3  Q= 0,666666666666667 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 7  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 9 
+ Общее количество комб. частот KolMinusAll= 16 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 4 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+ I= 2  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n= 0  k= 1 
+     -   m=-2  n= 2 
+ I= 3  1 / 2  Q= 0,5 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+ I= 4  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 8 
+ Общее количество комб. частот KolPlusAll= 12 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 7 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 4   KmaxMinus= 2 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=  ---  n=  ---  
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 5  Q= 0,2 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 4  Q= 0,25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 4  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 5  1 / 2  Q= 0,5 
+ KmaxPlus= 2   KmaxMinus= 0 
+     +   m= 1  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 6  2 / 3  Q= 0,666666666666667 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 7  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 9 
+ Общее количество комб. частот KolMinusAll= 16 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 4 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+ I= 2  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n= 0  k= 1 
+     -   m=-2  n= 2 
+ I= 3  1 / 2  Q= 0,5 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+ I= 4  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 8 
+ Общее количество комб. частот KolPlusAll= 12 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 7 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 4   KmaxMinus= 2 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=  ---  n=  ---  
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 5  Q= 0,2 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 4  Q= 0,25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 4  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 5  1 / 2  Q= 0,5 
+ KmaxPlus= 2   KmaxMinus= 0 
+     +   m= 1  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 6  2 / 3  Q= 0,666666666666667 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 7  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 9 
+ Общее количество комб. частот KolMinusAll= 16 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 4 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+ I= 2  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n= 0  k= 1 
+     -   m=-2  n= 2 
+ I= 3  1 / 2  Q= 0,5 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+ I= 4  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 8 
+ Общее количество комб. частот KolPlusAll= 12 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 7 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 4   KmaxMinus= 2 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=  ---  n=  ---  
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 5  Q= 0,2 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 4  Q= 0,25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 4  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 5  1 / 2  Q= 0,5 
+ KmaxPlus= 2   KmaxMinus= 0 
+     +   m= 1  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 6  2 / 3  Q= 0,666666666666667 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 7  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 9 
+ Общее количество комб. частот KolMinusAll= 16 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 4 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+ I= 2  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n= 0  k= 1 
+     -   m=-2  n= 2 
+ I= 3  1 / 2  Q= 0,5 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+ I= 4  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 8 
+ Общее количество комб. частот KolPlusAll= 12 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 7 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 4   KmaxMinus= 2 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=  ---  n=  ---  
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 5  Q= 0,2 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 4  Q= 0,25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 4  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 5  1 / 2  Q= 0,5 
+ KmaxPlus= 2   KmaxMinus= 0 
+     +   m= 1  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 6  2 / 3  Q= 0,666666666666667 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 7  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 9 
+ Общее количество комб. частот KolMinusAll= 16 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 4 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+ I= 2  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n= 0  k= 1 
+     -   m=-2  n= 2 
+ I= 3  1 / 2  Q= 0,5 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+ I= 4  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 8 
+ Общее количество комб. частот KolPlusAll= 12 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 7 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 4   KmaxMinus= 2 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=  ---  n=  ---  
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 5  Q= 0,2 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 4  Q= 0,25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 4  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 5  1 / 2  Q= 0,5 
+ KmaxPlus= 2   KmaxMinus= 0 
+     +   m= 1  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 6  2 / 3  Q= 0,666666666666667 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 7  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 9 
+ Общее количество комб. частот KolMinusAll= 16 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 1 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 0 
+ Кол-во основных комб. частот KolPlusBase= 0 
+ Общее количество комб. частот KolPlusAll= 0 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 1 
+ I= 1  1 / 1  Q= 1 
+ KmaxPlus= 1   KmaxMinus=-1 
+     +   m= 0  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 1 
+ Общее количество комб. частот KolMinusAll= 1 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 4 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+ I= 2  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n= 0  k= 1 
+     -   m=-2  n= 2 
+ I= 3  1 / 2  Q= 0,5 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+ I= 4  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 8 
+ Общее количество комб. частот KolPlusAll= 12 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 7 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 4   KmaxMinus= 2 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=  ---  n=  ---  
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 5  Q= 0,2 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 4  Q= 0,25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 4  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 5  1 / 2  Q= 0,5 
+ KmaxPlus= 2   KmaxMinus= 0 
+     +   m= 1  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 6  2 / 3  Q= 0,666666666666667 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 7  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 9 
+ Общее количество комб. частот KolMinusAll= 16 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 4 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+ I= 2  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n= 0  k= 1 
+     -   m=-2  n= 2 
+ I= 3  1 / 2  Q= 0,5 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+ I= 4  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 8 
+ Общее количество комб. частот KolPlusAll= 12 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 7 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 4   KmaxMinus= 2 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=  ---  n=  ---  
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 5  Q= 0,2 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 4  Q= 0,25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 4  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 5  1 / 2  Q= 0,5 
+ KmaxPlus= 2   KmaxMinus= 0 
+     +   m= 1  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 6  2 / 3  Q= 0,666666666666667 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 7  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 9 
+ Общее количество комб. частот KolMinusAll= 16 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 4 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+ I= 2  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n= 0  k= 1 
+     -   m=-2  n= 2 
+ I= 3  1 / 2  Q= 0,5 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+ I= 4  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 8 
+ Общее количество комб. частот KolPlusAll= 12 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 7 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 4   KmaxMinus= 2 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=  ---  n=  ---  
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 5  Q= 0,2 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 4  Q= 0,25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 4  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 5  1 / 2  Q= 0,5 
+ KmaxPlus= 2   KmaxMinus= 0 
+     +   m= 1  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 6  2 / 3  Q= 0,666666666666667 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 7  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 9 
+ Общее количество комб. частот KolMinusAll= 16 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 4 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+ I= 2  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n= 0  k= 1 
+     -   m=-2  n= 2 
+ I= 3  1 / 2  Q= 0,5 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+ I= 4  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 8 
+ Общее количество комб. частот KolPlusAll= 12 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 7 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 4   KmaxMinus= 2 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=  ---  n=  ---  
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 5  Q= 0,2 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 4  Q= 0,25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 4  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 5  1 / 2  Q= 0,5 
+ KmaxPlus= 2   KmaxMinus= 0 
+     +   m= 1  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 6  2 / 3  Q= 0,666666666666667 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 7  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 9 
+ Общее количество комб. частот KolMinusAll= 16 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 1 
+ I= 1  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 2 
+ Общее количество комб. частот KolPlusAll= 4 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 1 
+ I= 1  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 2 
+ Общее количество комб. частот KolMinusAll= 4 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 4 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+ I= 2  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n= 0  k= 1 
+     -   m=-2  n= 2 
+ I= 3  1 / 2  Q= 0,5 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+ I= 4  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 8 
+ Общее количество комб. частот KolPlusAll= 12 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 7 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 4   KmaxMinus= 2 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=  ---  n=  ---  
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 5  Q= 0,2 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 4  Q= 0,25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 4  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 5  1 / 2  Q= 0,5 
+ KmaxPlus= 2   KmaxMinus= 0 
+     +   m= 1  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 6  2 / 3  Q= 0,666666666666667 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 7  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 9 
+ Общее количество комб. частот KolMinusAll= 16 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется полная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 10 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 3   KmaxMinus= 5 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+     +   m= 4  n= 1  k= 3 
+     -   m=-2  n= 1 
+     +   m=  ---  n=  ---   k= 4 
+     -   m=-3  n= 1 
+     +   m=  ---  n=  ---   k= 5 
+     -   m=-4  n= 1 
+ I= 2  1 / 5  Q= 0,2 
+ KmaxPlus= 0   KmaxMinus= 1 
+     +   m=  ---  n=  ---   k= 1 
+     -   m=-4  n= 2 
+ I= 3  1 / 4  Q= 0,25 
+ KmaxPlus= 0   KmaxMinus= 1 
+     +   m=  ---  n=  ---   k= 1 
+     -   m=-3  n= 2 
+ I= 4  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n= 0  k= 1 
+     -   m=-2  n= 2 
+ I= 5  2 / 5  Q= 0,4 
+ KmaxPlus= 0   KmaxMinus= 1 
+     +   m=  ---  n=  ---   k= 1 
+     -   m=-4  n= 3 
+ I= 6  1 / 2  Q= 0,5 
+ KmaxPlus= 1   KmaxMinus= 2 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+     +   m=  ---  n=  ---   k= 2 
+     -   m=-3  n= 3 
+ I= 7  3 / 5  Q= 0,6 
+ KmaxPlus= 0   KmaxMinus= 1 
+     +   m=  ---  n=  ---   k= 1 
+     -   m=-4  n= 4 
+ I= 8  2 / 3  Q= 0,666666666666667 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n=-1  k= 1 
+     -   m=-2  n= 3 
+ I= 9  3 / 4  Q= 0,75 
+ KmaxPlus= 0   KmaxMinus= 1 
+     +   m=  ---  n=  ---   k= 1 
+     -   m=-3  n= 4 
+ I= 10  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 3 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+     +   m= 4  n=-2  k= 3 
+     -   m=-2  n= 4 
+ Кол-во основных комб. частот KolPlusBase= 15 
+ Общее количество комб. частот KolPlusAll= 26 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 11 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 5   KmaxMinus= 3 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=-4  n= 1 
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+     +   m= 4  n= 1  k= 5 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 5  Q= 0,2 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 4  Q= 0,25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 4  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 2  n= 0  k= 1 
+     -   m=-4  n= 2 
+ I= 5  2 / 5  Q= 0,4 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 6  1 / 2  Q= 0,5 
+ KmaxPlus= 2   KmaxMinus= 1 
+     +   m= 1  n= 0  k= 1 
+     -   m=-3  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 7  3 / 5  Q= 0,6 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n=-2  k= 1 
+     -   m=  ---  n=  ---  
+ I= 8  2 / 3  Q= 0,666666666666667 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 2  n=-1  k= 1 
+     -   m=-4  n= 3 
+ I= 9  3 / 4  Q= 0,75 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n=-2  k= 1 
+     -   m=  ---  n=  ---  
+ I= 10  4 / 5  Q= 0,8 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n=-3  k= 1 
+     -   m=  ---  n=  ---  
+ I= 11  1 / 1  Q= 1 
+ KmaxPlus= 5   KmaxMinus= 3 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=-3  n= 3 
+     +   m= 2  n=-2  k= 3 
+     -   m=-4  n= 4 
+     +   m= 3  n=-3  k= 4 
+     -   m=  ---  n=  ---  
+     +   m= 4  n=-4  k= 5 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 16 
+ Общее количество комб. частот KolMinusAll= 29 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется полная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 10 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 3   KmaxMinus= 5 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+     +   m= 4  n= 1  k= 3 
+     -   m=-2  n= 1 
+     +   m=  ---  n=  ---   k= 4 
+     -   m=-3  n= 1 
+     +   m=  ---  n=  ---   k= 5 
+     -   m=-4  n= 1 
+ I= 2  1 / 5  Q= 0,2 
+ KmaxPlus= 0   KmaxMinus= 1 
+     +   m=  ---  n=  ---   k= 1 
+     -   m=-4  n= 2 
+ I= 3  1 / 4  Q= 0,25 
+ KmaxPlus= 0   KmaxMinus= 1 
+     +   m=  ---  n=  ---   k= 1 
+     -   m=-3  n= 2 
+ I= 4  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n= 0  k= 1 
+     -   m=-2  n= 2 
+ I= 5  2 / 5  Q= 0,4 
+ KmaxPlus= 0   KmaxMinus= 1 
+     +   m=  ---  n=  ---   k= 1 
+     -   m=-4  n= 3 
+ I= 6  1 / 2  Q= 0,5 
+ KmaxPlus= 1   KmaxMinus= 2 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+     +   m=  ---  n=  ---   k= 2 
+     -   m=-3  n= 3 
+ I= 7  3 / 5  Q= 0,6 
+ KmaxPlus= 0   KmaxMinus= 1 
+     +   m=  ---  n=  ---   k= 1 
+     -   m=-4  n= 4 
+ I= 8  2 / 3  Q= 0,666666666666667 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n=-1  k= 1 
+     -   m=-2  n= 3 
+ I= 9  3 / 4  Q= 0,75 
+ KmaxPlus= 0   KmaxMinus= 1 
+     +   m=  ---  n=  ---   k= 1 
+     -   m=-3  n= 4 
+ I= 10  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 3 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+     +   m= 4  n=-2  k= 3 
+     -   m=-2  n= 4 
+ Кол-во основных комб. частот KolPlusBase= 15 
+ Общее количество комб. частот KolPlusAll= 26 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 11 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 5   KmaxMinus= 3 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=-4  n= 1 
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+     +   m= 4  n= 1  k= 5 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 5  Q= 0,2 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 4  Q= 0,25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 4  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 2  n= 0  k= 1 
+     -   m=-4  n= 2 
+ I= 5  2 / 5  Q= 0,4 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 6  1 / 2  Q= 0,5 
+ KmaxPlus= 2   KmaxMinus= 1 
+     +   m= 1  n= 0  k= 1 
+     -   m=-3  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 7  3 / 5  Q= 0,6 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n=-2  k= 1 
+     -   m=  ---  n=  ---  
+ I= 8  2 / 3  Q= 0,666666666666667 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 2  n=-1  k= 1 
+     -   m=-4  n= 3 
+ I= 9  3 / 4  Q= 0,75 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n=-2  k= 1 
+     -   m=  ---  n=  ---  
+ I= 10  4 / 5  Q= 0,8 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n=-3  k= 1 
+     -   m=  ---  n=  ---  
+ I= 11  1 / 1  Q= 1 
+ KmaxPlus= 5   KmaxMinus= 3 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=-3  n= 3 
+     +   m= 2  n=-2  k= 3 
+     -   m=-4  n= 4 
+     +   m= 3  n=-3  k= 4 
+     -   m=  ---  n=  ---  
+     +   m= 4  n=-4  k= 5 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 16 
+ Общее количество комб. частот KolMinusAll= 29 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 4 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+ I= 2  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n= 0  k= 1 
+     -   m=-2  n= 2 
+ I= 3  1 / 2  Q= 0,5 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+ I= 4  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 8 
+ Общее количество комб. частот KolPlusAll= 12 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 7 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 4   KmaxMinus= 2 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=  ---  n=  ---  
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 5  Q= 0,2 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 4  Q= 0,25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 4  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 5  1 / 2  Q= 0,5 
+ KmaxPlus= 2   KmaxMinus= 0 
+     +   m= 1  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 6  2 / 3  Q= 0,666666666666667 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 7  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 9 
+ Общее количество комб. частот KolMinusAll= 16 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 2 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+ I= 2  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 4 
+ Общее количество комб. частот KolPlusAll= 8 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 3 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 4   KmaxMinus= 2 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=  ---  n=  ---  
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+ I= 2  2 / 3  Q= 0,666666666666667 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 5 
+ Общее количество комб. частот KolMinusAll= 11 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 2 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+ I= 2  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 4 
+ Общее количество комб. частот KolPlusAll= 8 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 3 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 4   KmaxMinus= 2 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=  ---  n=  ---  
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+ I= 2  2 / 3  Q= 0,666666666666667 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 5 
+ Общее количество комб. частот KolMinusAll= 11 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 2 
+ I= 1  1 / 2  Q= 0,5 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+ I= 2  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 4 
+ Общее количество комб. частот KolPlusAll= 6 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 3 
+ I= 1  1 / 4  Q= 0,25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 2  Q= 0,5 
+ KmaxPlus= 2   KmaxMinus= 0 
+     +   m= 1  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 4 
+ Общее количество комб. частот KolMinusAll= 7 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 4 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+ I= 2  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n= 0  k= 1 
+     -   m=-2  n= 2 
+ I= 3  1 / 2  Q= 0,5 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+ I= 4  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 8 
+ Общее количество комб. частот KolPlusAll= 12 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 7 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 4   KmaxMinus= 2 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=  ---  n=  ---  
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 5  Q= 0,2 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 4  Q= 0,25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 4  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 5  1 / 2  Q= 0,5 
+ KmaxPlus= 2   KmaxMinus= 0 
+     +   m= 1  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 6  2 / 3  Q= 0,666666666666667 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 7  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 9 
+ Общее количество комб. частот KolMinusAll= 16 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется полная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 10 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 3   KmaxMinus= 5 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+     +   m= 4  n= 1  k= 3 
+     -   m=-2  n= 1 
+     +   m=  ---  n=  ---   k= 4 
+     -   m=-3  n= 1 
+     +   m=  ---  n=  ---   k= 5 
+     -   m=-4  n= 1 
+ I= 2  1 / 5  Q= 0,2 
+ KmaxPlus= 0   KmaxMinus= 1 
+     +   m=  ---  n=  ---   k= 1 
+     -   m=-4  n= 2 
+ I= 3  1 / 4  Q= 0,25 
+ KmaxPlus= 0   KmaxMinus= 1 
+     +   m=  ---  n=  ---   k= 1 
+     -   m=-3  n= 2 
+ I= 4  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n= 0  k= 1 
+     -   m=-2  n= 2 
+ I= 5  2 / 5  Q= 0,4 
+ KmaxPlus= 0   KmaxMinus= 1 
+     +   m=  ---  n=  ---   k= 1 
+     -   m=-4  n= 3 
+ I= 6  1 / 2  Q= 0,5 
+ KmaxPlus= 1   KmaxMinus= 2 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+     +   m=  ---  n=  ---   k= 2 
+     -   m=-3  n= 3 
+ I= 7  3 / 5  Q= 0,6 
+ KmaxPlus= 0   KmaxMinus= 1 
+     +   m=  ---  n=  ---   k= 1 
+     -   m=-4  n= 4 
+ I= 8  2 / 3  Q= 0,666666666666667 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n=-1  k= 1 
+     -   m=-2  n= 3 
+ I= 9  3 / 4  Q= 0,75 
+ KmaxPlus= 0   KmaxMinus= 1 
+     +   m=  ---  n=  ---   k= 1 
+     -   m=-3  n= 4 
+ I= 10  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 3 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+     +   m= 4  n=-2  k= 3 
+     -   m=-2  n= 4 
+ Кол-во основных комб. частот KolPlusBase= 15 
+ Общее количество комб. частот KolPlusAll= 26 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 11 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 5   KmaxMinus= 3 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=-4  n= 1 
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+     +   m= 4  n= 1  k= 5 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 5  Q= 0,2 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 4  Q= 0,25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 4  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 2  n= 0  k= 1 
+     -   m=-4  n= 2 
+ I= 5  2 / 5  Q= 0,4 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 6  1 / 2  Q= 0,5 
+ KmaxPlus= 2   KmaxMinus= 1 
+     +   m= 1  n= 0  k= 1 
+     -   m=-3  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 7  3 / 5  Q= 0,6 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n=-2  k= 1 
+     -   m=  ---  n=  ---  
+ I= 8  2 / 3  Q= 0,666666666666667 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 2  n=-1  k= 1 
+     -   m=-4  n= 3 
+ I= 9  3 / 4  Q= 0,75 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n=-2  k= 1 
+     -   m=  ---  n=  ---  
+ I= 10  4 / 5  Q= 0,8 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n=-3  k= 1 
+     -   m=  ---  n=  ---  
+ I= 11  1 / 1  Q= 1 
+ KmaxPlus= 5   KmaxMinus= 3 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=-3  n= 3 
+     +   m= 2  n=-2  k= 3 
+     -   m=-4  n= 4 
+     +   m= 3  n=-3  k= 4 
+     -   m=  ---  n=  ---  
+     +   m= 4  n=-4  k= 5 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 16 
+ Общее количество комб. частот KolMinusAll= 29 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 4 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+ I= 2  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n= 0  k= 1 
+     -   m=-2  n= 2 
+ I= 3  1 / 2  Q= 0,5 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+ I= 4  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 8 
+ Общее количество комб. частот KolPlusAll= 12 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 7 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 4   KmaxMinus= 2 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=  ---  n=  ---  
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 5  Q= 0,2 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 4  Q= 0,25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 4  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 5  1 / 2  Q= 0,5 
+ KmaxPlus= 2   KmaxMinus= 0 
+     +   m= 1  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 6  2 / 3  Q= 0,666666666666667 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 7  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 9 
+ Общее количество комб. частот KolMinusAll= 16 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 4 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+ I= 2  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n= 0  k= 1 
+     -   m=-2  n= 2 
+ I= 3  1 / 2  Q= 0,5 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+ I= 4  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 8 
+ Общее количество комб. частот KolPlusAll= 12 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 7 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 4   KmaxMinus= 2 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=  ---  n=  ---  
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 5  Q= 0,2 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 4  Q= 0,25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 4  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 5  1 / 2  Q= 0,5 
+ KmaxPlus= 2   KmaxMinus= 0 
+     +   m= 1  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 6  2 / 3  Q= 0,666666666666667 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 7  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 9 
+ Общее количество комб. частот KolMinusAll= 16 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 4 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+ I= 2  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n= 0  k= 1 
+     -   m=-2  n= 2 
+ I= 3  1 / 2  Q= 0,5 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+ I= 4  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 8 
+ Общее количество комб. частот KolPlusAll= 12 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 7 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 4   KmaxMinus= 2 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=  ---  n=  ---  
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 5  Q= 0,2 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 4  Q= 0,25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 4  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 5  1 / 2  Q= 0,5 
+ KmaxPlus= 2   KmaxMinus= 0 
+     +   m= 1  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 6  2 / 3  Q= 0,666666666666667 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 7  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 9 
+ Общее количество комб. частот KolMinusAll= 16 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется полная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 10 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 3   KmaxMinus= 5 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+     +   m= 4  n= 1  k= 3 
+     -   m=-2  n= 1 
+     +   m=  ---  n=  ---   k= 4 
+     -   m=-3  n= 1 
+     +   m=  ---  n=  ---   k= 5 
+     -   m=-4  n= 1 
+ I= 2  1 / 5  Q= 0,2 
+ KmaxPlus= 0   KmaxMinus= 1 
+     +   m=  ---  n=  ---   k= 1 
+     -   m=-4  n= 2 
+ I= 3  1 / 4  Q= 0,25 
+ KmaxPlus= 0   KmaxMinus= 1 
+     +   m=  ---  n=  ---   k= 1 
+     -   m=-3  n= 2 
+ I= 4  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n= 0  k= 1 
+     -   m=-2  n= 2 
+ I= 5  2 / 5  Q= 0,4 
+ KmaxPlus= 0   KmaxMinus= 1 
+     +   m=  ---  n=  ---   k= 1 
+     -   m=-4  n= 3 
+ I= 6  1 / 2  Q= 0,5 
+ KmaxPlus= 1   KmaxMinus= 2 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+     +   m=  ---  n=  ---   k= 2 
+     -   m=-3  n= 3 
+ I= 7  3 / 5  Q= 0,6 
+ KmaxPlus= 0   KmaxMinus= 1 
+     +   m=  ---  n=  ---   k= 1 
+     -   m=-4  n= 4 
+ I= 8  2 / 3  Q= 0,666666666666667 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n=-1  k= 1 
+     -   m=-2  n= 3 
+ I= 9  3 / 4  Q= 0,75 
+ KmaxPlus= 0   KmaxMinus= 1 
+     +   m=  ---  n=  ---   k= 1 
+     -   m=-3  n= 4 
+ I= 10  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 3 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+     +   m= 4  n=-2  k= 3 
+     -   m=-2  n= 4 
+ Кол-во основных комб. частот KolPlusBase= 15 
+ Общее количество комб. частот KolPlusAll= 26 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 11 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 5   KmaxMinus= 3 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=-4  n= 1 
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+     +   m= 4  n= 1  k= 5 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 5  Q= 0,2 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 4  Q= 0,25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 4  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 2  n= 0  k= 1 
+     -   m=-4  n= 2 
+ I= 5  2 / 5  Q= 0,4 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 6  1 / 2  Q= 0,5 
+ KmaxPlus= 2   KmaxMinus= 1 
+     +   m= 1  n= 0  k= 1 
+     -   m=-3  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 7  3 / 5  Q= 0,6 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n=-2  k= 1 
+     -   m=  ---  n=  ---  
+ I= 8  2 / 3  Q= 0,666666666666667 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 2  n=-1  k= 1 
+     -   m=-4  n= 3 
+ I= 9  3 / 4  Q= 0,75 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n=-2  k= 1 
+     -   m=  ---  n=  ---  
+ I= 10  4 / 5  Q= 0,8 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n=-3  k= 1 
+     -   m=  ---  n=  ---  
+ I= 11  1 / 1  Q= 1 
+ KmaxPlus= 5   KmaxMinus= 3 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=-3  n= 3 
+     +   m= 2  n=-2  k= 3 
+     -   m=-4  n= 4 
+     +   m= 3  n=-3  k= 4 
+     -   m=  ---  n=  ---  
+     +   m= 4  n=-4  k= 5 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 16 
+ Общее количество комб. частот KolMinusAll= 29 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 4 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+ I= 2  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n= 0  k= 1 
+     -   m=-2  n= 2 
+ I= 3  1 / 2  Q= 0,5 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+ I= 4  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 8 
+ Общее количество комб. частот KolPlusAll= 12 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 7 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 4   KmaxMinus= 2 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=  ---  n=  ---  
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 5  Q= 0,2 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 4  Q= 0,25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 4  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 5  1 / 2  Q= 0,5 
+ KmaxPlus= 2   KmaxMinus= 0 
+     +   m= 1  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 6  2 / 3  Q= 0,666666666666667 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 7  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 9 
+ Общее количество комб. частот KolMinusAll= 16 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 2 
+ I= 1  1 / 2  Q= 0,5 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+ I= 2  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 4 
+ Общее количество комб. частот KolPlusAll= 6 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 3 
+ I= 1  1 / 4  Q= 0,25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 2  Q= 0,5 
+ KmaxPlus= 2   KmaxMinus= 0 
+     +   m= 1  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 4 
+ Общее количество комб. частот KolMinusAll= 7 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 2 
+ I= 1  1 / 2  Q= 0,5 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+ I= 2  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 4 
+ Общее количество комб. частот KolPlusAll= 6 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 3 
+ I= 1  1 / 4  Q= 0,25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 2  Q= 0,5 
+ KmaxPlus= 2   KmaxMinus= 0 
+     +   m= 1  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 4 
+ Общее количество комб. частот KolMinusAll= 7 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 2 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+ I= 2  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 4 
+ Общее количество комб. частот KolPlusAll= 8 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 3 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 4   KmaxMinus= 2 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=  ---  n=  ---  
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+ I= 2  2 / 3  Q= 0,666666666666667 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 5 
+ Общее количество комб. частот KolMinusAll= 11 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 1 
+ I= 1  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 2 
+ Общее количество комб. частот KolPlusAll= 4 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 1 
+ I= 1  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 2 
+ Общее количество комб. частот KolMinusAll= 4 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 4 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+ I= 2  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n= 0  k= 1 
+     -   m=-2  n= 2 
+ I= 3  1 / 2  Q= 0,5 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+ I= 4  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 8 
+ Общее количество комб. частот KolPlusAll= 12 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 7 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 4   KmaxMinus= 2 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=  ---  n=  ---  
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 5  Q= 0,2 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 4  Q= 0,25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 4  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 5  1 / 2  Q= 0,5 
+ KmaxPlus= 2   KmaxMinus= 0 
+     +   m= 1  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 6  2 / 3  Q= 0,666666666666667 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 7  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 9 
+ Общее количество комб. частот KolMinusAll= 16 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется неполная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 4 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+ I= 2  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n= 0  k= 1 
+     -   m=-2  n= 2 
+ I= 3  1 / 2  Q= 0,5 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+ I= 4  1 / 1  Q= 1 
+ KmaxPlus= 2   KmaxMinus= 2 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+ Кол-во основных комб. частот KolPlusBase= 8 
+ Общее количество комб. частот KolPlusAll= 12 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 7 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 4   KmaxMinus= 2 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=  ---  n=  ---  
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 5  Q= 0,2 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 4  Q= 0,25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 4  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 5  1 / 2  Q= 0,5 
+ KmaxPlus= 2   KmaxMinus= 0 
+     +   m= 1  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 6  2 / 3  Q= 0,666666666666667 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 2  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 7  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 1 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+     +   m= 2  n=-2  k= 3 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 9 
+ Общее количество комб. частот KolMinusAll= 16 
+
+
+Входные данные п/п SintezAllCombins: 
+Номограмма комбинационных частот для Kp= 5 
+Синтезируется полная номограмма комбинационных частот
+Для суммирования частот
+Общее количество пораженных точек NC= 10 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 3   KmaxMinus= 5 
+     +   m= 2  n= 1  k= 1 
+     -   m= 0  n= 1 
+     +   m= 3  n= 1  k= 2 
+     -   m=-1  n= 1 
+     +   m= 4  n= 1  k= 3 
+     -   m=-2  n= 1 
+     +   m=  ---  n=  ---   k= 4 
+     -   m=-3  n= 1 
+     +   m=  ---  n=  ---   k= 5 
+     -   m=-4  n= 1 
+ I= 2  1 / 5  Q= 0,2 
+ KmaxPlus= 0   KmaxMinus= 1 
+     +   m=  ---  n=  ---   k= 1 
+     -   m=-4  n= 2 
+ I= 3  1 / 4  Q= 0,25 
+ KmaxPlus= 0   KmaxMinus= 1 
+     +   m=  ---  n=  ---   k= 1 
+     -   m=-3  n= 2 
+ I= 4  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n= 0  k= 1 
+     -   m=-2  n= 2 
+ I= 5  2 / 5  Q= 0,4 
+ KmaxPlus= 0   KmaxMinus= 1 
+     +   m=  ---  n=  ---   k= 1 
+     -   m=-4  n= 3 
+ I= 6  1 / 2  Q= 0,5 
+ KmaxPlus= 1   KmaxMinus= 2 
+     +   m= 3  n= 0  k= 1 
+     -   m=-1  n= 2 
+     +   m=  ---  n=  ---   k= 2 
+     -   m=-3  n= 3 
+ I= 7  3 / 5  Q= 0,6 
+ KmaxPlus= 0   KmaxMinus= 1 
+     +   m=  ---  n=  ---   k= 1 
+     -   m=-4  n= 4 
+ I= 8  2 / 3  Q= 0,666666666666667 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 4  n=-1  k= 1 
+     -   m=-2  n= 3 
+ I= 9  3 / 4  Q= 0,75 
+ KmaxPlus= 0   KmaxMinus= 1 
+     +   m=  ---  n=  ---   k= 1 
+     -   m=-3  n= 4 
+ I= 10  1 / 1  Q= 1 
+ KmaxPlus= 3   KmaxMinus= 3 
+     +   m= 2  n= 0  k= 1 
+     -   m= 0  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=-1  n= 3 
+     +   m= 4  n=-2  k= 3 
+     -   m=-2  n= 4 
+ Кол-во основных комб. частот KolPlusBase= 15 
+ Общее количество комб. частот KolPlusAll= 26 
+
+Для вычитания частот
+Общее количество пораженных точек NB= 11 
+ I= 1  0 / 1  Q= 0 
+ KmaxPlus= 5   KmaxMinus= 3 
+     +   m= 0  n= 1  k= 1 
+     -   m=-2  n= 1 
+     +   m= 1  n= 1  k= 2 
+     -   m=-3  n= 1 
+     +   m= 2  n= 1  k= 3 
+     -   m=-4  n= 1 
+     +   m= 3  n= 1  k= 4 
+     -   m=  ---  n=  ---  
+     +   m= 4  n= 1  k= 5 
+     -   m=  ---  n=  ---  
+ I= 2  1 / 5  Q= 0,2 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 3  1 / 4  Q= 0,25 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n= 0  k= 1 
+     -   m=  ---  n=  ---  
+ I= 4  1 / 3  Q= 0,333333333333333 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 2  n= 0  k= 1 
+     -   m=-4  n= 2 
+ I= 5  2 / 5  Q= 0,4 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n=-1  k= 1 
+     -   m=  ---  n=  ---  
+ I= 6  1 / 2  Q= 0,5 
+ KmaxPlus= 2   KmaxMinus= 1 
+     +   m= 1  n= 0  k= 1 
+     -   m=-3  n= 2 
+     +   m= 3  n=-1  k= 2 
+     -   m=  ---  n=  ---  
+ I= 7  3 / 5  Q= 0,6 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n=-2  k= 1 
+     -   m=  ---  n=  ---  
+ I= 8  2 / 3  Q= 0,666666666666667 
+ KmaxPlus= 1   KmaxMinus= 1 
+     +   m= 2  n=-1  k= 1 
+     -   m=-4  n= 3 
+ I= 9  3 / 4  Q= 0,75 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 3  n=-2  k= 1 
+     -   m=  ---  n=  ---  
+ I= 10  4 / 5  Q= 0,8 
+ KmaxPlus= 1   KmaxMinus= 0 
+     +   m= 4  n=-3  k= 1 
+     -   m=  ---  n=  ---  
+ I= 11  1 / 1  Q= 1 
+ KmaxPlus= 5   KmaxMinus= 3 
+     +   m= 0  n= 0  k= 1 
+     -   m=-2  n= 2 
+     +   m= 1  n=-1  k= 2 
+     -   m=-3  n= 3 
+     +   m= 2  n=-2  k= 3 
+     -   m=-4  n= 4 
+     +   m= 3  n=-3  k= 4 
+     -   m=  ---  n=  ---  
+     +   m= 4  n=-4  k= 5 
+     -   m=  ---  n=  ---  
+ Кол-во основных комб. частот KolMinusBase= 16 
+ Общее количество комб. частот KolMinusAll= 29 
+
+

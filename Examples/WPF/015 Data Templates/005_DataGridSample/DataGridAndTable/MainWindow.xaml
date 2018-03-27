@@ -1,0 +1,12 @@
+﻿<Window x:Class="DataGridAndTable.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Использование DataGrid" Height="350" Width="525">
+    
+    <Grid>
+        <DataGrid Name="grid1" 
+                  AutoGenerateColumns="True"
+                  MouseDoubleClick="grid1_MouseDoubleClick" >
+        </DataGrid>
+    </Grid>
+</Window>

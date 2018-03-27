@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="94b49602-2f05-43f2-b71b-6bc505013344" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:5210/StreamService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="StreamService.disco" MetadataType="Disco" ID="2683af2f-66bd-4b16-8c86-5a4886452a4a" SourceId="1" SourceUrl="http://localhost:5210/StreamService?disco" />
+    <MetadataFile FileName="FileTransfer.wsdl" MetadataType="Wsdl" ID="83db3bc5-3b90-4993-b360-2a63864fef0b" SourceId="1" SourceUrl="http://localhost:5210/StreamService?wsdl" />
+    <MetadataFile FileName="StreamService4.xsd" MetadataType="Schema" ID="5a08866a-bca2-443e-a76a-b16aec826b04" SourceId="1" SourceUrl="http://localhost:5210/StreamService?xsd=xsd0" />
+    <MetadataFile FileName="StreamService3.xsd" MetadataType="Schema" ID="442546ed-b711-4a71-9c63-89bf84515b3d" SourceId="1" SourceUrl="http://localhost:5210/StreamService?xsd=xsd2" />
+    <MetadataFile FileName="StreamService.xsd" MetadataType="Schema" ID="4fd55280-f15b-4f97-918c-41e567835ebc" SourceId="1" SourceUrl="http://localhost:5210/StreamService?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

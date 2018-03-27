@@ -1,0 +1,65 @@
+﻿@model IEnumerable<Notificator.Core.Model.NotificationLogItem>
+@{
+    ViewBag.Title = "Notifications";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script src="@Url.Content("~/Scripts/jquery.date-format.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/string.format.js")" type="text/javascript"></script>
+
+
+<h2>Notifications</h2>
+
+<script language="javascript" type="text/javascript">
+$(document).ready(function() {
+    var lastId =  @ViewBag.MaxLinkId;
+    function renew() 
+    {
+        $.ajax({
+            url: "@Url.Action("NotificationsUpdate", "Event")" + "/" + lastId,
+            context: document.body,
+            dataType: 'json',
+            async : false,
+            success: function (data) {
+               var newRows = '';
+               if (data['count'] > 0)
+               {
+                    $.each(data['items'], function(key, val) {
+                        date = new Date(parseInt(val['JoinDate'].replace("/Date(", "").replace(")/",""), 10));
+                        date = date.format("dd.mm.yyyy hh:MM:ss");
+                        newRows += '<tr><td>{0}</td><td>{1}</td><td>{2}</td></tr>'.format(val['EventName'], val['UserName'], date);
+                    });
+                    $('#notifications-table-body').prepend(newRows);
+                    lastId = data['maxId'];
+                }
+            }
+        });
+    }
+
+    setInterval(
+        function() { renew(); }, 
+        2000);
+});
+</script>
+<table>
+<tr>
+    <th>Event Name</th>
+    <th>Member</th>
+    <th>Join Date</th>
+</tr>
+<tbody id="notifications-table-body">
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @item.EventName
+        </td>
+        <td>
+            @item.UserName
+        </td>
+        <td>
+            @item.JoinDate
+        </td>
+    </tr>
+}
+</tbody>
+</table>

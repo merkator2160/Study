@@ -1,0 +1,24 @@
+﻿@model Notificator.Site.Models.EventViewModel
+
+@{
+    ViewBag.Title = "Join";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Join</h2>
+
+<h3>Are you sure want to join this?</h3>
+<fieldset>
+    <legend>Event</legend>
+
+    <div class="display-label">Name</div>
+    <div class="display-field">@Model.Name</div>
+</fieldset>
+@using (Html.BeginForm()) {
+    <p>
+        <input type="submit" value="Join" /> |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+}
+
+

@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Notificator.Core.Model.EventInfo>
+
+@{
+    ViewBag.Title = "My Events";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>My Events</h2>
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>
+          Members Count
+        </th>
+        <th>
+        Join Date
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @item.Name
+        </td>
+        <td>
+            @item.UserCount
+        </td>
+        <td>
+            @item.JoinDate
+        </td>
+    </tr>
+}
+
+</table>
+

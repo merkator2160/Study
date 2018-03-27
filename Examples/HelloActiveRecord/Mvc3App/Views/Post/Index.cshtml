@@ -1,0 +1,58 @@
+﻿@model IEnumerable<Model.Post>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create", new { blogId = ViewBag.BlogId })
+</p>
+<table>
+    <tr>
+        <th></th>
+        <th>
+            Title
+        </th>
+        <th>
+            Contents
+        </th>
+        <th>
+            Category
+        </th>
+        <th>
+            Created
+        </th>
+        <th>
+            Published
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.Id, blogId = ViewBag.BlogId }) |
+            @Html.ActionLink("Details", "Details", new { id = item.Id, blogId = ViewBag.BlogId }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.Id, blogId = ViewBag.BlogId })
+        </td>
+        <td>
+            @item.Title
+        </td>
+        <td>
+            @item.Contents
+        </td>
+        <td>
+            @item.Category
+        </td>
+        <td>
+            @String.Format("{0:g}", item.Created)
+        </td>
+        <td>
+            @item.Published
+        </td>
+    </tr>
+}
+
+</table>
+
