@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MassTransit.RabbitMQ" Version="3.5.7" />
+    <PackageReference Include="Modulbank.ServiceBus" Version="2.2.0-Beta20171213-360" />
+    <PackageReference Include="Modulbank.ServiceBus.Contracts" Version="2.2.0-beta20171213-360" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MicroServices.Contracts\MicroServices.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

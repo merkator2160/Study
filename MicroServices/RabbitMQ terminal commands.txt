@@ -1,0 +1,2 @@
+rabbitmqctl list_queues
+rabbitmq-plugins enable rabbitmq_management
