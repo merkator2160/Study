@@ -98,7 +98,6 @@
     <Compile Include="Database\Interfaces\IRepository.cs" />
     <Compile Include="Database\Models\ChildDb.cs" />
     <Compile Include="Database\MongoDataContext.cs" />
-    <Compile Include="Database\Repositories\MongoRepositoryBase.cs" />
     <Compile Include="Database\Repositories\PersonRepository.cs" />
     <Compile Include="Services\DataProviders\MongoDbDataStorageProvider.cs" />
     <Compile Include="Services\Interfaces\IDataStorageProvider.cs" />
