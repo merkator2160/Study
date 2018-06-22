@@ -1,4 +1,4 @@
-﻿using CodeForces.Units.Interview;
+﻿using CodeForces.Units;
 using System;
 
 namespace CodeForces
@@ -7,7 +7,7 @@ namespace CodeForces
     {
         static void Main(String[] args)
         {
-	        PerformanceTasks.Run();
+	        CodeForcesUnit.Run();
             Console.ReadKey();
         }
     }

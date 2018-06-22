@@ -4,11 +4,11 @@ using System.Text;
 
 namespace CodeForces.Units
 {
-    public static class CodeForcesUnit
+	public static class CodeForcesUnit
     {
         public static void Run()
         {
-            TanyaAndToysExample();
+	        XorShortLists();
         }
         private static void TanyaAndToysExample()
         {
@@ -67,5 +67,38 @@ namespace CodeForces.Units
             Console.WriteLine(resultCount);
             Console.WriteLine(resultString);
         }
-    }
+		private static void XorBinaryLists()
+	    {
+			var a = new Boolean[9] { false, true, false, true, false, false, false, true, true };
+		    var b = new Boolean[9] { true, false, false, true, true, true, true, false, false };
+		    var c = new Boolean[9];
+
+
+			for(int i = 0; i < a.Length; i++)
+			{
+				c[i] = a[i] ^ b[i];
+			}
+
+			foreach (var x in c)
+		    {
+			    Console.WriteLine(x);
+		    }
+	    }
+	    private static void XorShortLists()
+	    {
+		    var a = new Int16[9] { 4, 25, 136, 54, 42, 223, 57, 74, 5 };
+		    var b = new Int16[9] { 237, 0, 255, 5, 12, 128, 93, 32, 44 };
+		    var c = new Int16[9];
+			
+		    for(int i = 0; i < a.Length; i++)
+		    {
+			    c[i] = (Int16)(a[i] ^ b[i]);
+		    }
+
+		    foreach(var x in c)
+		    {
+			    Console.WriteLine(x);
+		    }
+	    }
+	}
 }
