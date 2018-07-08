@@ -1,14 +1,15 @@
-﻿using System;
+﻿using CodeForces.Units.CodeForces.Models;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CodeForces.Units
+namespace CodeForces.Units.CodeForces
 {
 	public static class CodeForcesUnit
     {
         public static void Run()
         {
-	        XorShortLists();
+	        BellIntegatorTask();
         }
         private static void TanyaAndToysExample()
         {
@@ -99,6 +100,30 @@ namespace CodeForces.Units
 		    {
 			    Console.WriteLine(x);
 		    }
+	    }
+	    static void BellIntegatorTask()
+	    {
+		    List<Aa> list1 = new List<Aa>()
+		    {
+			    new Aa(){ a=1 },
+			    new Aa(){ a=2 },
+			    new Aa(){ a=3 }
+		    };
+
+		    Func(list1);
+
+		    foreach(var x in list1)
+			    Console.WriteLine(x.a);
+	    }
+
+
+		// SUPPORT FUNCTIONS ////////////////////////////////////////////////////////////////////////////
+		static void Func(List<Aa> list)
+	    {
+		    var b = new List<Aa>(list)
+		    {
+			    [0] = {a = 99}
+		    };
 	    }
 	}
 }

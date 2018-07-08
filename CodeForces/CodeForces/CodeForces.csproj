@@ -97,6 +97,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Units\CodeForces\Models\Aa.cs" />
     <Compile Include="Units\Command\Commands\CommandBase.cs" />
     <Compile Include="Units\Command\Commands\ConcreteCommand.cs" />
     <Compile Include="Units\Command\Commands\EmptyCommand.cs" />
@@ -134,7 +135,7 @@
     <Compile Include="Units\PipelineNet\PipelineNetUnit.cs" />
     <Compile Include="Units\Protobuf\Models\Address.cs" />
     <Compile Include="Units\Protobuf\Models\Person.cs" />
-    <Compile Include="Units\CodeForcesUnit.cs" />
+    <Compile Include="Units\CodeForces\CodeForcesUnit.cs" />
     <Compile Include="Units\EfNorthwindUnit.cs" />
     <Compile Include="Units\Interview\InterviewUnit.cs" />
     <Compile Include="Units\Interview\Models\A.cs" />
