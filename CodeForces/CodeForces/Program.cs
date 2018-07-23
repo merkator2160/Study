@@ -1,6 +1,5 @@
-﻿using CodeForces.Units;
+﻿using CodeForces.Units.Redis;
 using System;
-using CodeForces.Units.CodeForces;
 
 namespace CodeForces
 {
@@ -8,7 +7,7 @@ namespace CodeForces
     {
         static void Main(String[] args)
         {
-	        CodeForcesUnit.Run();
+	        RedisUnit.Run();
             Console.ReadKey();
         }
     }

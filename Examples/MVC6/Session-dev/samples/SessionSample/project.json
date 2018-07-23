@@ -1,0 +1,20 @@
+{
+  "compilationOptions": {
+    "emitEntryPoint": true
+  },
+  "commands": {
+    "web": "SessionSample"
+  },
+  "dependencies": {
+    "Microsoft.AspNet.Server.Kestrel": "1.0.0-*",
+    "Microsoft.AspNet.Session": "1.0.0-*",
+    "Microsoft.Extensions.Caching.Memory": "1.0.0-*",
+    "Microsoft.Extensions.Caching.Redis": "1.0.0-*",
+    "Microsoft.Extensions.Caching.SqlServer": "1.0.0-*",
+    "Microsoft.Extensions.Logging.Console": "1.0.0-*"
+  },
+  "exclude": "wwwroot/**/*.*",
+  "frameworks": {
+    "dnx451": { }
+  }
+}
