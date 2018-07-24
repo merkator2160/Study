@@ -1,0 +1,20 @@
+﻿@using TaskOne.Models;
+
+@model SomeTestClass
+
+<tr>					
+    <td>@Model.Id</td>
+    <td>@Model.Title</td>
+    <td>@Model.Data1</td>
+    <td>@Model.Data2</td>
+    <td>@Model.Data3</td>
+    <td>@Model.Data4</td>
+    <td>
+        <table>				
+            <tr>					
+                <td>@Model.OtherTypeValue.ID</td>
+                <td>@Model.OtherTypeValue.Title</td>
+            </tr>
+        </table>
+    </td>
+</tr>

@@ -1,0 +1,46 @@
+﻿@using TaskOne.Controllers
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <h1>What you need to do?</h1>
+        <ul>
+            <li>Show Table of item 2 and 3.</li>
+            <li>Show button. On button click display items 4 and 5 using ajax (whith no page refresh).</li>
+        </ul>
+    </div>
+</div>
+<div class="row">
+    <table id="dataTable">				
+        @Html.Action("GetById", new { id = 1 })
+        @Html.Action("GetById", new { id = 2 })
+    </table>
+</div>
+<div class="row">
+    <button id="giveMe">Give me 4 and 5</button>
+</div>
+
+@section scripts
+{
+    <script>
+        $(document).ready(function()
+        {
+            var giveMeBtn = $("#giveMe").on("click",
+                function()
+                {
+                    $.get("/Home/GetById", { id: 3 })
+                        .success(function(html)
+                        {
+                            $("#dataTable").append(html);
+                        });
+                    $.get("/Home/GetById", { id: 4 })
+                        .success(function(html)
+                        {
+                            $("#dataTable").append(html);
+                        });
+                });
+        });
+    </script>
+}

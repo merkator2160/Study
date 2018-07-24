@@ -1,0 +1,42 @@
+﻿@using TaskTwo.Models
+
+@model ViewModel
+
+@{
+    ViewBag.Title = "Home Page";
+    var result = ViewBag.Result as InputParams;
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <h1>What you need to do?</h1>
+        <p>
+            Please enter amount and number of players.<br />
+            Example: Amount = 10, Players = 3. <br />
+            Don't put big numbers in this tool, this tool has limited execution time.<br />
+            The code supposed to work this way:<br />
+            When you click on "Start" button each player will take 0.1 from the amount and will wait 100ms until next round.<br />
+            The code need to stop when 1 left in balance.<br />
+            Please make shure 1 always stayes in balance.
+        </p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        @if (result != null)
+        {
+            <h1>Init amount:@result.InitAmount</h1>
+            <h1>Count people:@result.CountPeople</h1>
+            <h1>Balance after simulate:@result.BalanceAmount</h1>
+        }
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        @using(Html.BeginForm())
+        {
+            @Html.EditorForModel()
+            <input type="submit" value="Start"/>
+        } 
+    </div>
+</div>
