@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionIt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializationTask.Main", "SerializationTask.Main\SerializationTask.Main.csproj", "{8920EDE1-CAF5-432B-B885-09E5F64DF9FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializationTask.Tests", "SerializationTask.Tests\SerializationTask.Tests.csproj", "{E82911FE-B05C-4133-9ECB-B22015CEA640}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializationTask.IntegrationTests", "SerializationTask.IntegrationTests\SerializationTask.IntegrationTests.csproj", "{E82911FE-B05C-4133-9ECB-B22015CEA640}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
