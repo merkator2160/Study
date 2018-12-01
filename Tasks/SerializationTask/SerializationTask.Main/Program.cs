@@ -1,14 +1,12 @@
-﻿using SerializationTask.Main.Config.AutoMapper;
+﻿using Autofac;
+using MongoDB.Driver;
+using SerializationTask.Main.Config.AutoMapper;
 using SerializationTask.Main.Config.Models;
 using SerializationTask.Main.Database;
-using SerializationTask.Main.Database.Interfaces;
-using SerializationTask.Main.Database.Repositories;
-using SerializationTask.Main.Services;
 using SerializationTask.Main.Services.DataProviders;
-using SerializationTask.Main.Services.Interfaces;
 using System;
 using System.IO;
-using Unity;
+using System.Reflection;
 
 namespace SerializationTask.Main
 {
@@ -16,40 +14,56 @@ namespace SerializationTask.Main
 	{
 		static void Main(String[] args)
 		{
-			var container = ConfigureContainer();
-
-			//var dataProvider = container.Resolve<MongoDataContext>();
-			//foreach (var x in dataProvider.GetAllCollections())
-			//{
-			//	Console.WriteLine(x);
-			//}
-
-			//Console.ReadKey();
-
-			container.Resolve<ApplicationContext>().Run();
+			using(var container = ConfigureContainer())
+			{
+				container.Resolve<ApplicationContext>().Run();
+			}
 		}
 
 
 		// SUPPORT FUNCTIONS //////////////////////////////////////////////////////////////////////
-		private static IUnityContainer ConfigureContainer()
+		private static IContainer ConfigureContainer()
 		{
-			var container = new UnityContainer();
+			var builder = new ContainerBuilder();
+			var rootConfig = CreateGetApplicationConfiguration();
+			var currentAssembly = Assembly.GetExecutingAssembly();
 
-			container.RegisterInstance(new Random());
-			container.RegisterInstance(AutoMapperCreator.GetConfiguredMapper());
-			container.RegisterInstance(GetApplicationConfiguration());
+			builder.RegisterInstance(rootConfig);
+			builder.RegisterInstance(rootConfig.MongoConfig);
 
-			container.RegisterType<ApplicationContext>();
-			container.RegisterType<MongoDataContext>();
+			builder.RegisterType<ApplicationContext>();
 
-			container.RegisterType<IPersonRepository, PersonRepository>();
-			container.RegisterType<IPersonCreatorService, PersonCreatorService>();
-			container.RegisterType<IDataStorageProvider, MongoDbDataStorageProvider>();
-			//container.RegisterType<IDataStorageProvider, FileSystemDataStorageProvider>();
+			builder.RegisterInstance(new Random())
+				.SingleInstance();
 
-			return container;
+			builder.RegisterInstance(AutoMapperCreator.GetConfiguredMapper())
+				.SingleInstance();
+
+			builder.RegisterInstance(new MongoClient(rootConfig.MongoConfig.ConnectionString))
+				.AsImplementedInterfaces()
+				.SingleInstance();
+
+			builder.RegisterType<MongoDataContext>();
+
+			builder
+				.RegisterAssemblyTypes(currentAssembly)
+				.Where(t => t.Name.EndsWith("Repository"))
+				.AsImplementedInterfaces();
+
+			builder
+				.RegisterAssemblyTypes(currentAssembly)
+				.Where(t => t.Name.EndsWith("Service"))
+				.AsImplementedInterfaces();
+
+			builder.RegisterType<MongoDbDataStorageProvider>()
+				.AsImplementedInterfaces();
+
+			//builder.RegisterType<FileSystemDataStorageProvider>()
+			//	.AsImplementedInterfaces();
+
+			return builder.Build();
 		}
-		private static RootConfig GetApplicationConfiguration()
+		private static RootConfig CreateGetApplicationConfiguration()
 		{
 			return new RootConfig()
 			{
@@ -57,7 +71,8 @@ namespace SerializationTask.Main
 				FilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), "Persons.json"),
 				MongoConfig = new MongoDbConfig()
 				{
-					ConnectionString = "mongodb://localhost:27017/PersonsDb"
+					ConnectionString = "mongodb://localhost:27017",
+					DatabaseName = "SerializationTaskDb"
 				}
 			};
 		}

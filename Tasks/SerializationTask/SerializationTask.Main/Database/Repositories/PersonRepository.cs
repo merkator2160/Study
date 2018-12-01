@@ -26,7 +26,7 @@ namespace SerializationTask.Main.Database.Repositories
 		{
 			return _dbContext.Persons.Find(new BsonDocument("_id", new ObjectId(id))).FirstOrDefault();
 		}
-		public void Create(PersonDb item)
+		public void Add(PersonDb item)
 		{
 			_dbContext.Persons.InsertOne(item);
 		}
@@ -43,7 +43,7 @@ namespace SerializationTask.Main.Database.Repositories
 		// IPersonRepository //////////////////////////////////////////////////////////////////////
 		public void BulkUpdate(PersonDb[] items)
 		{
-			foreach (var x in items)
+			foreach(var x in items)
 			{
 				_dbContext.Persons.ReplaceOne(new BsonDocument("_id", x.Id), x, new UpdateOptions()
 				{

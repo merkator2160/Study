@@ -8,20 +8,20 @@ namespace SerializationTask.Main.Database
 {
 	internal class MongoDataContext
 	{
-		private readonly RootConfig _config;
+		private readonly MongoDbConfig _config;
 		private readonly IMongoClient _dbClient;
 		private readonly IMongoDatabase _dataBase;
 
 
-		public MongoDataContext(RootConfig config)
+		public MongoDataContext(IMongoClient dbClient, MongoDbConfig config)
 		{
 			_config = config;
-			_dbClient = new MongoClient(config.MongoConfig.ConnectionString);
-			_dataBase = _dbClient.GetDatabase("SerializationTaskDb");
+			_dbClient = dbClient;
+			_dataBase = _dbClient.GetDatabase(config.DatabaseName);
 		}
 
 
-		// PROPERTIES /////////////////////////////////////////////////////////////////////////////
+		// COLLECTIONS ////////////////////////////////////////////////////////////////////////////
 		public IMongoCollection<PersonDb> Persons => _dataBase.GetCollection<PersonDb>("Persons");
 
 

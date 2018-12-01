@@ -7,7 +7,7 @@ namespace SerializationTask.Main.Database.Interfaces
 	{
 		PersonDb[] GetAll();
 		TEntity Get(String id);
-		void Create(TEntity item);
+		void Add(TEntity item);
 		void Update(TEntity item);
 		void Delete(String id);
 	}
