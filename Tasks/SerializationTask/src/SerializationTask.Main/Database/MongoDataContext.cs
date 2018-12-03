@@ -1,6 +1,6 @@
 ﻿using MongoDB.Driver;
-using SerializationTask.Main.Config.Models;
 using SerializationTask.Main.Database.Models;
+using SerializationTask.Main.Database.Models.Config;
 using System;
 using System.Linq;
 

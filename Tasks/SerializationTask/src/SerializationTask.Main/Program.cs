@@ -1,8 +1,9 @@
 ﻿using Autofac;
 using MongoDB.Driver;
 using SerializationTask.Main.Config.AutoMapper;
-using SerializationTask.Main.Config.Models;
+using SerializationTask.Main.Config.Config;
 using SerializationTask.Main.Database;
+using SerializationTask.Main.Database.Models.Config;
 using SerializationTask.Main.Services.DataProviders;
 using System;
 using System.IO;
@@ -32,17 +33,9 @@ namespace SerializationTask.Main
 			builder.RegisterInstance(rootConfig.MongoConfig);
 
 			builder.RegisterType<ApplicationContext>();
-
-			builder.RegisterInstance(new Random())
-				.SingleInstance();
-
-			builder.RegisterInstance(AutoMapperCreator.GetConfiguredMapper())
-				.SingleInstance();
-
-			builder.RegisterInstance(new MongoClient(rootConfig.MongoConfig.ConnectionString))
-				.AsImplementedInterfaces()
-				.SingleInstance();
-
+			builder.RegisterInstance(new Random()).SingleInstance();
+			builder.RegisterInstance(AutoMapperCreator.GetConfiguredMapper()).SingleInstance();
+			builder.RegisterInstance(new MongoClient(rootConfig.MongoConfig.ConnectionString)).AsImplementedInterfaces().SingleInstance();
 			builder.RegisterType<MongoDataContext>();
 
 			builder
@@ -55,11 +48,8 @@ namespace SerializationTask.Main
 				.Where(t => t.Name.EndsWith("Service"))
 				.AsImplementedInterfaces();
 
-			builder.RegisterType<MongoDbDataStorageProvider>()
-				.AsImplementedInterfaces();
-
-			//builder.RegisterType<FileSystemDataStorageProvider>()
-			//	.AsImplementedInterfaces();
+			builder.RegisterType<MongoDbDataStorageProvider>().AsImplementedInterfaces();
+			//builder.RegisterType<FileSystemDataStorageProvider>().AsImplementedInterfaces();
 
 			return builder.Build();
 		}

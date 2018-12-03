@@ -1,4 +1,4 @@
-﻿using SerializationTask.Main.Config.Models;
+﻿using SerializationTask.Main.Config.Config;
 using SerializationTask.Main.Services.Interfaces;
 using SerializationTask.Main.Services.Models;
 using SerializationTask.Main.Services.Models.Enums;

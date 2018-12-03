@@ -25,7 +25,7 @@ namespace SerializationTask.Main.Services.DataProviders
 			var personsDb = _mapper.Map<PersonDb[]>(persons);
 
 			_personRepository.CleanCollection();
-			_personRepository.BulkInsert(personsDb);
+			_personRepository.AddMany(personsDb);
 		}
 		public PersonDto[] Restore()
 		{

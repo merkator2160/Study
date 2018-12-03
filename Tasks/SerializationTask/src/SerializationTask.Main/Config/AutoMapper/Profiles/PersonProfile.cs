@@ -11,9 +11,6 @@ namespace SerializationTask.Main.Config.AutoMapper.Profiles
 			CreateMap<PersonDto, PersonDb>()
 				.ForMember(from => from.Id, to => to.Ignore())
 				.ReverseMap();
-			CreateMap<ChildDto, ChildDb>()
-				.ForMember(from => from.Id, to => to.Ignore())
-				.ReverseMap();
 		}
 	}
 }

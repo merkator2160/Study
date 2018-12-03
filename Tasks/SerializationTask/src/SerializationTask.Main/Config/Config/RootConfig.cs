@@ -1,6 +1,7 @@
-﻿using System;
+﻿using SerializationTask.Main.Database.Models.Config;
+using System;
 
-namespace SerializationTask.Main.Config.Models
+namespace SerializationTask.Main.Config.Config
 {
 	public class RootConfig
 	{

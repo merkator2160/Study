@@ -19,7 +19,7 @@ namespace SerializationTask.Main.Database.Models
 		public Double Salary { get; set; }
 		public Boolean IsMarred { get; set; }
 
-		[BsonRepresentation(BsonType.Int32)]
+		[BsonRepresentation(BsonType.String)]
 		public Gender Gender { get; set; }
 		public ChildDb[] Children { get; set; }
 	}

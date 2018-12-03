@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SerializationTask.Main.Config.Models
+namespace SerializationTask.Main.Database.Models.Config
 {
 	public class MongoDbConfig
 	{
