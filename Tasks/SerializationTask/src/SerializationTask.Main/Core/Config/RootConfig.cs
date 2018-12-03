@@ -1,7 +1,7 @@
 ﻿using SerializationTask.Main.Database.Models.Config;
 using System;
 
-namespace SerializationTask.Main.Config.Config
+namespace SerializationTask.Main.Core.Config
 {
 	public class RootConfig
 	{

@@ -2,8 +2,9 @@
 
 namespace SerializationTask.Main.Database.Interfaces
 {
-	internal interface IPersonRepository : IRepository<PersonDb>
+	internal interface IPersonRepository
 	{
+		PersonDb[] GetAll();
 		void CleanCollection();
 		void AddMany(PersonDb[] items);
 	}

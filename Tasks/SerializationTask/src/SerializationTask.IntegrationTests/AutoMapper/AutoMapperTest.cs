@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using SerializationTask.Main.Config.AutoMapper;
+using SerializationTask.Main.Core.AutoMapper;
 using System.Reflection;
 using Xunit;
 

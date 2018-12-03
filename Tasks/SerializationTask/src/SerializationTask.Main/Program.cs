@@ -1,7 +1,7 @@
 ﻿using Autofac;
 using MongoDB.Driver;
-using SerializationTask.Main.Config.AutoMapper;
-using SerializationTask.Main.Config.Config;
+using SerializationTask.Main.Core.AutoMapper;
+using SerializationTask.Main.Core.Config;
 using SerializationTask.Main.Database;
 using SerializationTask.Main.Database.Models.Config;
 using SerializationTask.Main.Services.DataProviders;

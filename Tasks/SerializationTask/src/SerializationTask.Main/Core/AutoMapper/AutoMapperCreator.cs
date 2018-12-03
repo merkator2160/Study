@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 
-namespace SerializationTask.Main.Config.AutoMapper
+namespace SerializationTask.Main.Core.AutoMapper
 {
 	internal static class AutoMapperCreator
 	{

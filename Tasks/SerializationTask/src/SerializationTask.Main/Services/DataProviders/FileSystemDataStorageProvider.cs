@@ -1,5 +1,5 @@
 ﻿using Newtonsoft.Json;
-using SerializationTask.Main.Config.Config;
+using SerializationTask.Main.Core.Config;
 using SerializationTask.Main.Services.Interfaces;
 using SerializationTask.Main.Services.Models;
 using System.IO;
