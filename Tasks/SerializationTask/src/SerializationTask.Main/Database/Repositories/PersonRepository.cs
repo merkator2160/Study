@@ -7,10 +7,10 @@ namespace SerializationTask.Main.Database.Repositories
 {
 	internal class PersonRepository : IPersonRepository
 	{
-		private readonly MongoDataContext _dataContext;
+		private readonly DataContext _dataContext;
 
 
-		public PersonRepository(MongoDataContext dataContext)
+		public PersonRepository(DataContext dataContext)
 		{
 			_dataContext = dataContext;
 		}

@@ -56,7 +56,7 @@
     <Compile Include="Database\Mappings\ChildMap.cs" />
     <Compile Include="Database\Mappings\PersonMap.cs" />
     <Compile Include="Database\Models\Storage\ChildDb.cs" />
-    <Compile Include="Database\MongoDataContext.cs" />
+    <Compile Include="Database\DataContext.cs" />
     <Compile Include="Database\Repositories\PersonRepository.cs" />
     <Compile Include="Services\DataProviders\MongoDbDataStorageProvider.cs" />
     <Compile Include="Services\Interfaces\IDataStorageProvider.cs" />

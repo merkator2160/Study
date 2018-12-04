@@ -36,7 +36,7 @@ namespace SerializationTask.Main
 			builder.RegisterInstance(new Random()).SingleInstance();
 			builder.RegisterInstance(AutoMapperCreator.GetConfiguredMapper()).SingleInstance();
 			builder.RegisterInstance(new MongoClient(rootConfig.MongoConfig.ConnectionString)).AsImplementedInterfaces().SingleInstance();
-			builder.RegisterType<MongoDataContext>();
+			builder.RegisterType<DataContext>();
 
 			builder
 				.RegisterAssemblyTypes(currentAssembly)

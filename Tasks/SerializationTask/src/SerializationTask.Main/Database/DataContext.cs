@@ -8,18 +8,18 @@ using System.Reflection;
 
 namespace SerializationTask.Main.Database
 {
-	internal class MongoDataContext
+	internal class DataContext
 	{
 		private readonly MongoDbConfig _config;
 		private readonly IMongoClient _dbClient;
 		private readonly IMongoDatabase _dataBase;
 
 
-		static MongoDataContext()
+		static DataContext()
 		{
 			RegisterMappings();
 		}
-		public MongoDataContext(IMongoClient dbClient, MongoDbConfig config)
+		public DataContext(IMongoClient dbClient, MongoDbConfig config)
 		{
 			_config = config;
 			_dbClient = dbClient;
