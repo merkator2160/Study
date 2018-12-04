@@ -1,8 +1,10 @@
-﻿using MongoDB.Driver;
-using SerializationTask.Main.Database.Models;
+﻿using MongoDB.Bson.Serialization;
+using MongoDB.Driver;
 using SerializationTask.Main.Database.Models.Config;
+using SerializationTask.Main.Database.Models.Storage;
 using System;
 using System.Linq;
+using System.Reflection;
 
 namespace SerializationTask.Main.Database
 {
@@ -13,6 +15,10 @@ namespace SerializationTask.Main.Database
 		private readonly IMongoDatabase _dataBase;
 
 
+		static MongoDataContext()
+		{
+			RegisterMappings();
+		}
 		public MongoDataContext(IMongoClient dbClient, MongoDbConfig config)
 		{
 			_config = config;
@@ -26,13 +32,29 @@ namespace SerializationTask.Main.Database
 
 
 		// FUNCTIONS //////////////////////////////////////////////////////////////////////////////
-		public String[] GetAllCollections()
+		private static void RegisterMappings()
 		{
-			using(var collections = _dataBase.ListCollections())
+			var typesToRegister = Assembly.GetExecutingAssembly().GetTypes()
+				.Where(type => !String.IsNullOrEmpty(type.Namespace))
+				.Where(type => IsSubclassOfRawGeneric(typeof(BsonClassMap<>), type)).ToArray()
+				.ToArray();
+
+			foreach(var x in typesToRegister)
 			{
-				var collectionList = collections.ToList();
-				return collectionList.Select(x => x["name"].ToString()).ToArray();
+				dynamic configurationInstance = Activator.CreateInstance(x);
+				BsonClassMap.RegisterClassMap(configurationInstance);
 			}
+		}
+		private static Boolean IsSubclassOfRawGeneric(Type generic, Type toCheck)
+		{
+			while(toCheck != null && toCheck != typeof(Object))
+			{
+				var cur = toCheck.IsGenericType ? toCheck.GetGenericTypeDefinition() : toCheck;
+				if(generic == cur)
+					return true;
+				toCheck = toCheck.BaseType;
+			}
+			return false;
 		}
 	}
 }

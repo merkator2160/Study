@@ -1,4 +1,4 @@
-﻿using SerializationTask.Main.Database.Models;
+﻿using SerializationTask.Main.Database.Models.Storage;
 
 namespace SerializationTask.Main.Database.Interfaces
 {

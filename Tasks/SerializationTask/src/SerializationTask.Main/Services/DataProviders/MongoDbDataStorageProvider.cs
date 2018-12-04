@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using SerializationTask.Main.Database.Interfaces;
-using SerializationTask.Main.Database.Models;
+using SerializationTask.Main.Database.Models.Storage;
 using SerializationTask.Main.Services.Interfaces;
 using SerializationTask.Main.Services.Models;
 
@@ -18,7 +18,7 @@ namespace SerializationTask.Main.Services.DataProviders
 			_personRepository = personRepository;
 		}
 
-		
+
 		// IDataStorageProvider ///////////////////////////////////////////////////////////////////
 		public void Save(PersonDto[] persons)
 		{

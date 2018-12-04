@@ -53,7 +53,9 @@
     <Compile Include="Core\AutoMapper\AutoMapperCreator.cs" />
     <Compile Include="Core\AutoMapper\Profiles\PersonProfile.cs" />
     <Compile Include="Database\Interfaces\IPersonRepository.cs" />
-    <Compile Include="Database\Models\ChildDb.cs" />
+    <Compile Include="Database\Mappings\ChildMap.cs" />
+    <Compile Include="Database\Mappings\PersonMap.cs" />
+    <Compile Include="Database\Models\Storage\ChildDb.cs" />
     <Compile Include="Database\MongoDataContext.cs" />
     <Compile Include="Database\Repositories\PersonRepository.cs" />
     <Compile Include="Services\DataProviders\MongoDbDataStorageProvider.cs" />
@@ -62,7 +64,7 @@
     <Compile Include="Services\Models\ChildDto.cs" />
     <Compile Include="Database\Models\Config\MongoDbConfig.cs" />
     <Compile Include="Core\Config\RootConfig.cs" />
-    <Compile Include="Database\Models\PersonDb.cs" />
+    <Compile Include="Database\Models\Storage\PersonDb.cs" />
     <Compile Include="Services\Models\Enums\Gender.cs" />
     <Compile Include="Services\Models\PersonDto.cs" />
     <Compile Include="Services\Models\StepSixResultDto.cs" />
@@ -115,5 +117,6 @@
       <Version>4.5.0</Version>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
