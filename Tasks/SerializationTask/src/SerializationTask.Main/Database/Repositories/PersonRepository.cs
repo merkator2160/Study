@@ -1,5 +1,4 @@
-﻿using MongoDB.Bson;
-using MongoDB.Driver;
+﻿using MongoDB.Driver;
 using SerializationTask.Main.Database.Interfaces;
 using SerializationTask.Main.Database.Models.Storage;
 
@@ -19,7 +18,7 @@ namespace SerializationTask.Main.Database.Repositories
 		// IPersonRepository //////////////////////////////////////////////////////////////////////
 		public PersonDb[] GetAll()
 		{
-			return _dataContext.Persons.Find(new BsonDocument()).ToList().ToArray();
+			return _dataContext.Persons.Find(FilterDefinition<PersonDb>.Empty).ToList().ToArray();
 		}
 		public void AddMany(PersonDb[] items)
 		{
@@ -27,7 +26,7 @@ namespace SerializationTask.Main.Database.Repositories
 		}
 		public void CleanCollection()
 		{
-			_dataContext.Persons.DeleteMany(new BsonDocument());
+			_dataContext.Persons.DeleteMany(FilterDefinition<PersonDb>.Empty);
 		}
 	}
 }
