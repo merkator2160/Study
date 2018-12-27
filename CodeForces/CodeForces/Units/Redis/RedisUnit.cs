@@ -8,6 +8,7 @@ namespace CodeForces.Units.Redis
         private const String ConnectionString = "localhost";
         private const String Key = "mykey";
 
+
         public static void Run()
         {
 

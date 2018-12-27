@@ -1,14 +1,14 @@
-﻿using CodeForces.Units.Redis;
+﻿using CodeForces.Units;
 using System;
 
 namespace CodeForces
 {
 	class Program
-    {
-        static void Main(String[] args)
-        {
-	        RedisUnit.Run();
-            Console.ReadKey();
-        }
-    }
+	{
+		static void Main(String[] args)
+		{
+			SumUnit.Run();
+			Console.ReadKey();
+		}
+	}
 }

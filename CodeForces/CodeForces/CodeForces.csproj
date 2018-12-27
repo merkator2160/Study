@@ -152,6 +152,7 @@
     <Compile Include="Units\Semafore\SemaforeUnite.cs" />
     <Compile Include="Units\SortedSetUnit.cs" />
     <Fakes Include="Units\Xml\DocumentBuilder.cs" />
+    <Compile Include="Units\SumUnit.cs" />
     <Compile Include="Units\Threads\ThreadObject.cs" />
     <Compile Include="Units\Threads\ThreadPoolUnit.cs" />
     <Compile Include="Units\Xml\Models\DocumentBuilderVirtualCategory.cs" />
