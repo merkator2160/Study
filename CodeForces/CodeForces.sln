@@ -27,7 +27,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils.Common", "Utils.Commo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils.CheckSumCalculator", "Utils.CheckSumCalculator\Utils.CheckSumCalculator.csproj", "{46575EA1-7E81-4B7D-9D29-F1A55202D40F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shippets", "Shippets", "{5883FC0E-F43F-47A4-9EB3-8FAE05300ABD}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Snippets", "Snippets", "{5883FC0E-F43F-47A4-9EB3-8FAE05300ABD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils.VersionExtractor", "Utils.VersionExtractor\Utils.VersionExtractor.csproj", "{E85B1257-2FE7-458F-B83E-A68A48584016}"
 EndProject

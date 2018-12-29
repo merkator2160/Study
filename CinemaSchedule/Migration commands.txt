@@ -1,2 +1,0 @@
-add-migration MigrationName -projectname "Plugin.DataBase" -startupproject "Emulator" -verbose
-update-database -startupproject "Emulator" -project "Plugin.DataBase" -verbose
