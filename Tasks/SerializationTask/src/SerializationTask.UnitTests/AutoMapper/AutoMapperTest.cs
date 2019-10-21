@@ -8,11 +8,11 @@ namespace SerializationTask.Tests.AutoMapper
 	public class AutoMapperTest
 	{
 		[Fact]
-		public void TheWholeAutomapperConfigurationTest()
+		public void ConfigurationTest()
 		{
 			var mapperConfiguration = new MapperConfiguration(cfg =>
 			{
-				cfg.AddProfiles(typeof(AutoMapperCreator).GetTypeInfo().Assembly);     // Dynamically load all configurations
+				cfg.AddMaps(typeof(AutoMapperCreator).GetTypeInfo().Assembly);
 			});
 
 			mapperConfiguration.CompileMappings();

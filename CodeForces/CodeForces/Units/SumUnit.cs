@@ -10,6 +10,9 @@ namespace CodeForces.Units
 			Console.WriteLine(SumV2(100));
 			Console.WriteLine(SumV3(100));
 		}
+
+
+		// SUM FUNCTIONS //////////////////////////////////////////////////////////////////////////
 		private static Int32 SumV1(Int32 n)
 		{
 			var result = 0;

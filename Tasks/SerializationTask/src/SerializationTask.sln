@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27428.2011
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{D0D79C8F-B694-442E-B403-7631B3E388FF}"
 	ProjectSection(SolutionItems) = preProject
@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionIt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializationTask.Main", "SerializationTask.Main\SerializationTask.Main.csproj", "{8920EDE1-CAF5-432B-B885-09E5F64DF9FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializationTask.IntegrationTests", "SerializationTask.IntegrationTests\SerializationTask.IntegrationTests.csproj", "{E82911FE-B05C-4133-9ECB-B22015CEA640}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializationTask.UnitTests", "SerializationTask.UnitTests\SerializationTask.UnitTests.csproj", "{E82911FE-B05C-4133-9ECB-B22015CEA640}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

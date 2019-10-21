@@ -30,12 +30,12 @@ namespace SerializationTask.Main
 
 			persons = _dataStorageProvider.Restore();
 
-			var result = CalculatePersonsCountCreditCardCountAndAvarageChildAge(persons);
+			var result = CalculatePersonsCountCreditCardCountAndAverageChildAge(persons);
 			DisplayResult(result);
 
 			Console.ReadKey();
 		}
-		private StepSixResultDto CalculatePersonsCountCreditCardCountAndAvarageChildAge(IReadOnlyCollection<PersonDto> persons)
+		private StepSixResultDto CalculatePersonsCountCreditCardCountAndAverageChildAge(IReadOnlyCollection<PersonDto> persons)
 		{
 			var personsCount = 0;
 			var numberOfCreditCards = 0;
