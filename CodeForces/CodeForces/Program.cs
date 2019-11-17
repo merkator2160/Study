@@ -1,4 +1,4 @@
-﻿using CodeForces.Units;
+﻿using CodeForces.Units.Protected;
 using System;
 
 namespace CodeForces
@@ -7,8 +7,7 @@ namespace CodeForces
 	{
 		static void Main(String[] args)
 		{
-			SumUnit.Run();
-			Console.ReadKey();
+			ProtectedUnit.Run();
 		}
 	}
 }

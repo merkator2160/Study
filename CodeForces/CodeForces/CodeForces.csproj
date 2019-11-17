@@ -133,6 +133,9 @@
     <Compile Include="Units\PipelineNet\Handlers\ArgumentExceptionHandler.cs" />
     <Compile Include="Units\PipelineNet\Handlers\OutOfMemoryExceptionHandler .cs" />
     <Compile Include="Units\PipelineNet\PipelineNetUnit.cs" />
+    <Compile Include="Units\Protected\ProtectedA.cs" />
+    <Compile Include="Units\Protected\ProtectedB.cs" />
+    <Compile Include="Units\Protected\ProtectedUnit.cs" />
     <Compile Include="Units\Protobuf\Models\Address.cs" />
     <Compile Include="Units\Protobuf\Models\Person.cs" />
     <Compile Include="Units\CodeForces\CodeForcesUnit.cs" />
