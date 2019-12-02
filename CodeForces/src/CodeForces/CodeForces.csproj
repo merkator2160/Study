@@ -85,6 +85,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.IO.Compression" />
     <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\MvvmLightLibs.5.3.0.0\lib\net45\System.Windows.Interactivity.dll</HintPath>
       <Private>True</Private>
@@ -159,7 +160,11 @@
     <Compile Include="Units\SortedSetUnit.cs" />
     <Compile Include="UsefulItems\ConcurrentListPrototype.cs" />
     <Compile Include="UsefulItems\ExampleException.cs" />
+    <Compile Include="UsefulItems\Extensions\InvokeExtension.cs" />
     <Compile Include="UsefulItems\SerializableGuid.cs" />
+    <Compile Include="UsefulItems\Updater\UpdateProgressChangedEventArgs.cs" />
+    <Compile Include="UsefulItems\Updater\UpdaterEngine.cs" />
+    <Compile Include="UsefulItems\Updater\UpdatingEngineConfig.cs" />
     <Compile Include="UsefulItems\VersionExtractor.cs" />
     <Fakes Include="Units\Xml\DocumentBuilder.cs" />
     <Compile Include="Units\SumUnit.cs" />

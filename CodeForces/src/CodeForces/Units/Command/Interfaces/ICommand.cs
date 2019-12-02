@@ -1,8 +1,8 @@
-﻿namespace CodeForces.Units.CommandUnit.Interfaces
+﻿namespace CodeForces.Units.Command.Interfaces
 {
-    public interface ICommand
-    {
-        void Execute();
-        void Undo();
-    }
+	public interface ICommand
+	{
+		void Execute();
+		void Undo();
+	}
 }

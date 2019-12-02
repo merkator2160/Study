@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace UsefulItems
+namespace CodeForces.UsefulItems
 {
 	[Serializable]
 	public class ExampleException : ApplicationException

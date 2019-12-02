@@ -1,8 +1,8 @@
-﻿namespace LinqToXml
+﻿namespace CodeForces.Units.LinqToXml.Models
 {
-    public enum EmployeTypes
-    {
-        Programmer = 0,
-        Editor
-    }
+	public enum EmployeTypes
+	{
+		Programmer = 0,
+		Editor
+	}
 }

@@ -1,27 +1,26 @@
-﻿using CodeForces.Units.CommandUnit;
-using CodeForces.Units.CommandUnit.Interfaces;
+﻿using CodeForces.Units.Command.Interfaces;
 
 namespace CodeForces.Units.Command.Commands
 {
-    public class VolumeCommand : ICommand
-    {
-        readonly Volume _volume;
+	public class VolumeCommand : ICommand
+	{
+		readonly Volume _volume;
 
 
-        public VolumeCommand(Volume volume)
-        {
-            _volume = volume;
-        }
+		public VolumeCommand(Volume volume)
+		{
+			_volume = volume;
+		}
 
 
-        // ICommand ///////////////////////////////////////////////////////////////////////////////
-        public void Execute()
-        {
-            _volume.RaiseLevel();
-        }
-        public void Undo()
-        {
-            _volume.DropLevel();
-        }
-    }
+		// ICommand ///////////////////////////////////////////////////////////////////////////////
+		public void Execute()
+		{
+			_volume.RaiseLevel();
+		}
+		public void Undo()
+		{
+			_volume.DropLevel();
+		}
+	}
 }
