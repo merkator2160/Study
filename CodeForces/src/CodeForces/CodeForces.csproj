@@ -143,7 +143,6 @@
     <Compile Include="Units\Protobuf\Models\Address.cs" />
     <Compile Include="Units\Protobuf\Models\Person.cs" />
     <Compile Include="Units\CodeForces\CodeForcesUnit.cs" />
-    <Compile Include="Units\EfNorthwindUnit.cs" />
     <Compile Include="Units\Interview\InterviewUnit.cs" />
     <Compile Include="Units\Interview\Models\A.cs" />
     <Compile Include="Units\Interview\Models\B.cs" />
@@ -158,10 +157,13 @@
     <Compile Include="Units\Protobuf\ProtobufSerializationUnite.cs" />
     <Compile Include="Units\Semafore\SemaforeUnite.cs" />
     <Compile Include="Units\SortedSetUnit.cs" />
+    <Compile Include="UsefulItems\CheckSum\CheckSumCalculator.cs" />
+    <Compile Include="UsefulItems\CheckSum\Models\FileCheckSum.cs" />
     <Compile Include="UsefulItems\ConcurrentListPrototype.cs" />
     <Compile Include="UsefulItems\ExampleException.cs" />
     <Compile Include="UsefulItems\Extensions\InvokeExtension.cs" />
     <Compile Include="UsefulItems\SerializableGuid.cs" />
+    <Compile Include="UsefulItems\Updater\Startup.cs" />
     <Compile Include="UsefulItems\Updater\UpdateProgressChangedEventArgs.cs" />
     <Compile Include="UsefulItems\Updater\UpdaterEngine.cs" />
     <Compile Include="UsefulItems\Updater\UpdatingEngineConfig.cs" />
