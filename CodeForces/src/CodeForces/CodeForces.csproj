@@ -160,6 +160,7 @@
     <Compile Include="UsefulItems\ConcurrentListPrototype.cs" />
     <Compile Include="UsefulItems\ExampleException.cs" />
     <Compile Include="UsefulItems\SerializableGuid.cs" />
+    <Compile Include="UsefulItems\VersionExtractor.cs" />
     <Fakes Include="Units\Xml\DocumentBuilder.cs" />
     <Compile Include="Units\SumUnit.cs" />
     <Compile Include="Units\Threads\ThreadObject.cs" />
