@@ -119,6 +119,9 @@
     <Compile Include="Units\Interview\Models\D.cs" />
     <Compile Include="Units\Interview\Models\TryCatchTask.cs" />
     <Compile Include="Units\Interview\PerformanceTasks.cs" />
+    <Compile Include="Units\LinqToXml\LinqToXmlUnit.cs" />
+    <Compile Include="Units\LinqToXml\Models\Employee.cs" />
+    <Compile Include="Units\LinqToXml\Models\Enums.cs" />
     <Compile Include="Units\MediatorNet\Handlers\EventHandlerOne.cs" />
     <Compile Include="Units\MediatorNet\Handlers\EventHandlerTwo.cs" />
     <Compile Include="Units\MediatorNet\Handlers\GuidCommandHandler.cs" />
@@ -154,6 +157,9 @@
     <Compile Include="Units\Protobuf\ProtobufSerializationUnite.cs" />
     <Compile Include="Units\Semafore\SemaforeUnite.cs" />
     <Compile Include="Units\SortedSetUnit.cs" />
+    <Compile Include="UsefulItems\ConcurrentListPrototype.cs" />
+    <Compile Include="UsefulItems\ExampleException.cs" />
+    <Compile Include="UsefulItems\SerializableGuid.cs" />
     <Fakes Include="Units\Xml\DocumentBuilder.cs" />
     <Compile Include="Units\SumUnit.cs" />
     <Compile Include="Units\Threads\ThreadObject.cs" />
@@ -171,12 +177,6 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\DataBase\DataBase.csproj">
-      <Project>{efedbaad-0a86-410a-9a0e-97c8f6a515ad}</Project>
-      <Name>DataBase</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

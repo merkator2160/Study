@@ -1,4 +1,4 @@
-﻿using CodeForces.Units.Protected;
+﻿using CodeForces.Units.LinqToXml;
 using System;
 
 namespace CodeForces
@@ -7,7 +7,7 @@ namespace CodeForces
 	{
 		static void Main(String[] args)
 		{
-			ProtectedUnit.Run();
+			LinqToXmlUnit.Run();
 		}
 	}
 }
