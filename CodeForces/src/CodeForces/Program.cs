@@ -1,4 +1,4 @@
-﻿using CodeForces.Units.LinqToXml;
+﻿using CodeForces.Units.CodeForces;
 using System;
 
 namespace CodeForces
@@ -7,7 +7,7 @@ namespace CodeForces
 	{
 		static void Main(String[] args)
 		{
-			LinqToXmlUnit.Run();
+			AkvelonUnit.Run();
 		}
 	}
 }

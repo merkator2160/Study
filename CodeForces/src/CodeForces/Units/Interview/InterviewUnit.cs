@@ -50,8 +50,8 @@ namespace CodeForces.Units.Interview
 		public static void Task2()
 		{
 			var numbers = new List<Int32> { -1, 20634, 523, -634, 434, -2167, 5235 };
-			var positivNumbers = from x in numbers where x > 0 orderby x select x;
-			Console.WriteLine(String.Join(", ", positivNumbers));
+			var positiveNumbers = from x in numbers where x > 0 orderby x select x;
+			Console.WriteLine(String.Join(", ", positiveNumbers));
 		}   // LINQ execution
 		public static void Task3()
 		{

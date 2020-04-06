@@ -98,7 +98,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Units\CodeForces\AkvelonUnit.cs" />
     <Compile Include="Units\CodeForces\Models\Aa.cs" />
+    <Compile Include="Units\CodeForces\Models\BranchDto.cs" />
     <Compile Include="Units\Command\Commands\CommandBase.cs" />
     <Compile Include="Units\Command\Commands\ConcreteCommand.cs" />
     <Compile Include="Units\Command\Commands\EmptyCommand.cs" />
