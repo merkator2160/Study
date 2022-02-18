@@ -1,0 +1,38 @@
+Hi Evgeniy,
+
+Thank you for applying to the job.
+
+We are willing to give you a test task (paid) to understand your skills level.
+
+What needs to be done:
+
+A printer agent application (.NET Core Console App) that will receive a PDF file and send it to a label printer.
+
+The process:
+- The application runs as a scheduled task on a continuous basis on a PC (using WebJobs 3.0 library)
+- A WebJob function within application listens for a message from an Azure Service Bus
+- Once message is received, it uses file name in the message content and downloads file with that name from predefined Azure Storage Container
+- Once file is downloaded, it sends it to a label printer
+- Printed file moved to another container (archive)
+
+Deliverables:
+- .NET Core Console App itself
+- Yaml script to build and publish the app artefacts using Azure DevOps build pipeline
+- Powershell Azure CLI script that will be executed as part of a release pipeline, that will prepare necessary resources:
+-- Service Bus
+-- Service Bus queue namespace
+-- Storage Account and creates container if it does not exists already for the label files
+-- Storage Account for WebJobs logs and locks (i.e. WebJobs dashboard)
+- Second Powershell Azure CLI script that will run on a target computer:
+-- collect connection string to Azure Service Bus
+-- collect connection string to WebJobs dashboard Storage Account
+-- creates SAS token to access containers where PDF files are stored
+-- configures necessary parameters on the web job appsettings file
+-- deploys console app to a PC with DevOps agent installed on it and ensures scheduled task is created and starts it.
+
+We will also share a template to base .NET Core Console App with WebJob on.
+
+Can you please provide a high-level estimate on how long you think this may take you (both, effort and completion date)?
+
+Kind regards,
+Andrew

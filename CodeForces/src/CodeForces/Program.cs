@@ -1,13 +1,13 @@
-﻿using CodeForces.Units.CodeForces;
+﻿using CodeForces.Units.MvvmLight;
 using System;
 
 namespace CodeForces
 {
-	class Program
-	{
-		static void Main(String[] args)
-		{
-			AkvelonUnit.Run();
-		}
-	}
+    class Program
+    {
+        static void Main(String[] args)
+        {
+            MvvmLightMediatorUnit.Run();
+        }
+    }
 }

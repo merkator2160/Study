@@ -1,0 +1,66 @@
+Task Description
+We have an organization and need to print an org chart in the terminal.
+
+The input is a list of strings. Each string is a management / direct report relationship.
+
+For example: "A1,B2,C3,D4"
+
+Explanation: A1 is the manager of B2, C3, D4, where A1, B2, C3, D4 are unique employee IDs separated by a comma.
+
+ 
+
+Input: ["B2,E5,F6", "A1,B2,C3,D4", "D4,G7,I9", "G7,H8"]
+
+Output:
+A1
+    B2
+        E5
+        F6
+    C3
+    D4
+        G7
+            H8
+        I9
+ 
+ 
+ 
+ 
+using System.CodeDom.Compiler;
+using System.Collections.Generic;
+using System.Collections;
+using System.ComponentModel;
+using System.Diagnostics.CodeAnalysis;
+using System.Globalization;
+using System.IO;
+using System.Linq;
+using System.Reflection;
+using System.Runtime.Serialization;
+using System.Text.RegularExpressions;
+using System.Text;
+using System;
+
+class Result
+{
+    public static void Print(List<string> data)
+    {
+        
+    }
+}
+
+class Solution
+{
+    public static void Main(string[] args)
+    {
+        int dataCount = Convert.ToInt32(Console.ReadLine().Trim());
+
+        List<string> data = new List<string>();
+
+        for (int i = 0; i < dataCount; i++)
+        {
+            string dataItem = Console.ReadLine();
+            data.Add(dataItem);
+        }
+
+        Result.Print(data);
+    }
+}

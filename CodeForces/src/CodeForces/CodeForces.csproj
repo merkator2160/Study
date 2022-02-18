@@ -134,7 +134,7 @@
     <Compile Include="Units\MediatorNet\Messages\GuidCommand.cs" />
     <Compile Include="Units\MediatorNet\Messages\GuidRequest.cs" />
     <Compile Include="Units\MediatorNet\Messages\GuidResponse.cs" />
-    <Compile Include="Units\MvvmLight\Handler.cs" />
+    <Compile Include="Units\MvvmLight\Subscriber.cs" />
     <Compile Include="Units\MvvmLight\MvvmLightMediatorUnit.cs" />
     <Compile Include="Units\PipelineNet\Handlers\ArgumentExceptionHandler.cs" />
     <Compile Include="Units\PipelineNet\Handlers\OutOfMemoryExceptionHandler .cs" />

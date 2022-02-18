@@ -11,7 +11,7 @@ namespace CodeForces.Units.MediatorNet.Handlers
         {
             return Task.Run(() => new GuidResponse
             {
-                ModyfiedId = $"{context.Message.Id} - from response"
+                ModifiedId = $"{context.Message.Id} - from response"
             });
         }
     }

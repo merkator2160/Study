@@ -48,8 +48,8 @@ namespace SerializationTask.Main
 				.Where(t => t.Name.EndsWith("Service"))
 				.AsImplementedInterfaces();
 
-			builder.RegisterType<MongoDbDataStorageProvider>().AsImplementedInterfaces();
-			//builder.RegisterType<FileSystemDataStorageProvider>().AsImplementedInterfaces();
+			//builder.RegisterType<MongoDbDataStorageProvider>().AsImplementedInterfaces();
+			builder.RegisterType<FileSystemDataStorageProvider>().AsImplementedInterfaces();
 
 			return builder.Build();
 		}

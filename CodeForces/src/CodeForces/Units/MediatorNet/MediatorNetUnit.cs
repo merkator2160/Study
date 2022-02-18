@@ -6,7 +6,7 @@ using System;
 
 namespace CodeForces.Units.MediatorNet
 {
-	public static class MediatorNetUnit
+    public static class MediatorNetUnit
     {
         public static void Run()
         {
@@ -37,7 +37,7 @@ namespace CodeForces.Units.MediatorNet
             {
                 Id = Guid.NewGuid().ToString()
             });
-            Console.WriteLine($"Request handler: {result.ModyfiedId}");
+            Console.WriteLine($"Request handler: {result.ModifiedId}");
         }
     }
 }

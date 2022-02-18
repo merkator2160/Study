@@ -3,9 +3,9 @@ using System;
 
 namespace CodeForces.Units.MvvmLight
 {
-    public class Handler
+    public class Subscriber
     {
-        public Handler(IMessenger messenger)
+        public Subscriber(IMessenger messenger)
         {
             messenger.Register<String>(this, Console.WriteLine);
         }

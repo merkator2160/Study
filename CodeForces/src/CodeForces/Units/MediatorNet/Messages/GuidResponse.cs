@@ -5,6 +5,6 @@ namespace CodeForces.Units.MediatorNet.Messages
 {
     public class GuidResponse : IResponse
     {
-        public String ModyfiedId { get; set; }
+        public String ModifiedId { get; set; }
     }
 }

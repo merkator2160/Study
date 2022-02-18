@@ -1,5 +1,6 @@
 ﻿using GalaSoft.MvvmLight.Messaging;
 using Microsoft.Practices.Unity;
+using System;
 
 namespace CodeForces.Units.MvvmLight
 {
@@ -9,21 +10,23 @@ namespace CodeForces.Units.MvvmLight
         {
             var container = ConfigureContainer();
             UseMessenger(container);
+
+            Console.ReadKey();
         }
         private static IUnityContainer ConfigureContainer()
         {
             var container = new UnityContainer();
             container.RegisterType<IMessenger, Messenger>(new ContainerControlledLifetimeManager());
-            container.RegisterType<Handler>();
+            container.RegisterType<Subscriber>();
 
             return container;
         }
         private static void UseMessenger(IUnityContainer container)
         {
-            var messanger = container.Resolve<IMessenger>();
-            var handler = container.Resolve<Handler>();
+            var messenger = container.Resolve<IMessenger>();
+            var subscriber = container.Resolve<Subscriber>();
 
-            messanger.Send("Hello world!");
+            messenger.Send("Hello world!");
         }
     }
 }
