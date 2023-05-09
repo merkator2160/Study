@@ -1,17 +1,16 @@
-﻿using Autofac;
-using MongoDB.Driver;
-using SerializationTask.Main.Core.AutoMapper;
+﻿using SerializationTask.Main.Core.AutoMapper;
 using SerializationTask.Main.Core.Config;
 using SerializationTask.Main.Database;
 using SerializationTask.Main.Database.Models.Config;
 using SerializationTask.Main.Services.DataProviders;
 using System;
+using System.ComponentModel;
 using System.IO;
 using System.Reflection;
 
 namespace SerializationTask.Main
 {
-	internal class Program
+    internal class Program
 	{
 		static void Main(String[] args)
 		{

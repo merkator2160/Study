@@ -5,7 +5,7 @@ using Xunit;
 
 namespace SerializationTask.Tests.AutoMapper
 {
-	public class AutoMapperTest
+	public class AutoMapperTests
 	{
 		[Fact]
 		public void ConfigurationTest()

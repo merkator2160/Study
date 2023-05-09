@@ -1,0 +1,9 @@
+For beginners:
+When an application just seems to work, it is always the result of hard work. Application development is fascinating and requires a considerable investment of time. Here are some key considerations especially for new developers. To be successful, you will need to:
+
+1) Start slowly and proceed one step at a time;
+2) Be prepared to learn;
+3) Remain flexible in how you want to achieve your goal;
+4) Celebrate all the small successes;
+
+Remember, an application is just a computer program. The computer will only do what you tell it to do. Modern application frameworks can provide many default solutions that are easy to setup. On the flip side, the more you insist that everything should look and work exactly the way you want it, the more work you will have to invest.
