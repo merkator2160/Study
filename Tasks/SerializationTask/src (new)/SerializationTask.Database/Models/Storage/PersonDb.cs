@@ -11,7 +11,6 @@ namespace SerializationTask.Database.Models.Storage
 		public String LastName { get; set; }
 		public Int32 SequenceId { get; set; }
 		public String[] CreditCardNumbers { get; set; }
-		public Int32 Age { get; set; }
 		public String[] Phones { get; set; }
 		public Int64 BirthDate { get; set; }
 		public Double Salary { get; set; }

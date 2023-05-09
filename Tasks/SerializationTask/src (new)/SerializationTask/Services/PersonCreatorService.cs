@@ -1,12 +1,13 @@
 ﻿using SerializationTask.Common.Contracts.Enums;
-using SerializationTask.Services.Interfaces;
+using SerializationTask.Common.Helpers;
+using SerializationTask.Common.Tools;
 using SerializationTask.Services.Models;
 using SerializationTask.Services.Models.Config;
 using System.Text;
 
 namespace SerializationTask.Services
 {
-    internal class PersonCreatorService : IPersonCreatorService
+    internal class PersonCreatorService
 	{
 		private readonly Random _rnd;
 		private readonly RootConfig _config;
@@ -44,24 +45,16 @@ namespace SerializationTask.Services
 				FirstName = $"First name of {personId}",
 				LastName = $"Last name of {personId}",
 				SequenceId = sequence,
-				CreditCardNumbers = CreateCreditCards(_rnd.Next(10)).ToArray(),
-				Age = _rnd.Next(100),
+				CreditCardNumbers = RandomCreditCardNumberGenerator.GenerateMasterCardNumbers(_rnd.Next(10)).ToArray(),
 				Phones = CreatePhones(_rnd.Next(50)).ToArray(),
-				BirthDate = (DateTime.UtcNow - TimeSpan.FromDays(_rnd.Next(10 * 365, 50 * 365))).ToBinary(),
+				BirthDate = (DateTime.UtcNow - TimeSpan.FromDays(_rnd.Next(10 * 365, 50 * 365))).ToPosixTimeSec(),
 				Salary = _rnd.Next(50000, 150000),
 				IsMarred = _rnd.NextDouble() > 0.5,
 				Gender = _rnd.NextDouble() > 0.5 ? Gender.Female : Gender.Male,
 				Children = CreateChildren(_rnd.Next(4)).ToArray()
 			};
 		}
-		private IEnumerable<String> CreateCreditCards(Int32 numberOfCreditCards)
-		{
-			for(var i = 0; i < numberOfCreditCards; i++)
-			{
-				yield return Guid.NewGuid().ToString().Replace("-", "");
-			}
-		}
-		private IEnumerable<String> CreatePhones(Int32 numberOfPhones)
+        private IEnumerable<String> CreatePhones(Int32 numberOfPhones)
 		{
 			var stringBuilder = new StringBuilder(11);
 
@@ -71,7 +64,7 @@ namespace SerializationTask.Services
 				stringBuilder.Append("+");
 				for(var j = 0; j < 11; j++)
 				{
-					stringBuilder.Append(_rnd.Next(1, 9));
+					stringBuilder.Append(_rnd.Next(0, 9));
 				}
 
 				yield return stringBuilder.ToString();

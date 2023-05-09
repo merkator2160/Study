@@ -1,5 +1,6 @@
 ﻿using Autofac;
 using SerializationTask.Common.Contracts.Const;
+using SerializationTask.Services;
 using SerializationTask.Services.Interfaces;
 using SerializationTask.Services.Models;
 
@@ -7,11 +8,11 @@ namespace SerializationTask
 {
     internal class ApplicationContext
 	{
-		private readonly IPersonCreatorService _personCreatorService;
+		private readonly PersonCreatorService _personCreatorService;
         private readonly ILifetimeScope _lifetimeScope;
 
 
-        public ApplicationContext(IPersonCreatorService personCreatorService, ILifetimeScope lifetimeScope)
+        public ApplicationContext(PersonCreatorService personCreatorService, ILifetimeScope lifetimeScope)
 		{
 			_personCreatorService = personCreatorService;
             _lifetimeScope = lifetimeScope;
@@ -21,12 +22,13 @@ namespace SerializationTask
 		// FUNCTIONS ////////////////////////////////////////////////////////////////////////////////////
 		public void Run()
 		{
-            var dataStorageProvider = _lifetimeScope.ResolveNamed<IDataStorageProvider>(DataStorage.Database);
+            var dataStorageProvider = _lifetimeScope.ResolveNamed<IDataStorageProvider>(DataStorage.FileSystem);
             var persons = _personCreatorService.Create();
 
 			dataStorageProvider.Save(persons);
 
 			persons = null;
+			GC.Collect();
 
             persons = dataStorageProvider.Restore();
 
@@ -35,7 +37,7 @@ namespace SerializationTask
 
 			Console.ReadKey();
 		}
-		private StepSixResultDto CalculatePersonsCountCreditCardCountAndAverageChildAge(IReadOnlyCollection<PersonDto> persons)
+		private StepSixResultDto CalculatePersonsCountCreditCardCountAndAverageChildAge(PersonDto[] persons)
 		{
 			var personsCount = 0;
 			var numberOfCreditCards = 0;
@@ -55,7 +57,7 @@ namespace SerializationTask
 			{
 				PersonsCount = personsCount,
 				NumberOfCreditCards = numberOfCreditCards,
-				AverageChildAge = totalChildrenAge / numberOfChildren
+				AverageChildAge = numberOfChildren == 0 ? 0 : totalChildrenAge / numberOfChildren
 			};
 		}
 		private void DisplayResult(StepSixResultDto result)

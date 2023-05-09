@@ -1,20 +1,27 @@
 ﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
 using SerializationTask.Services.Interfaces;
 using SerializationTask.Services.Models;
 using SerializationTask.Services.Models.Config;
 using System.Text;
+using JsonSerializer = Newtonsoft.Json.JsonSerializer;
 
 namespace SerializationTask.Services.DataProviders
 {
     internal class FileSystemDataStorageProvider : IDataStorageProvider
 	{
 		private readonly RootConfig _config;
+        private readonly JsonSerializer _serializer;
 
 
-		public FileSystemDataStorageProvider(RootConfig config)
+        public FileSystemDataStorageProvider(RootConfig config)
 		{
 			_config = config;
-		}
+            _serializer = new JsonSerializer
+            {
+                ContractResolver = new CamelCasePropertyNamesContractResolver()
+            };
+        }
 
 
 		// IDataStorageProvider ///////////////////////////////////////////////////////////////////
@@ -26,7 +33,7 @@ namespace SerializationTask.Services.DataProviders
 				{
 					using(var textWriter = new JsonTextWriter(streamWriter))
 					{
-						new JsonSerializer().Serialize(textWriter, persons, typeof(PersonDto[]));
+                        _serializer.Serialize(textWriter, persons, typeof(PersonDto[]));
 					}
 				}
 			}
@@ -39,7 +46,7 @@ namespace SerializationTask.Services.DataProviders
 				{
 					using(var jsonTextReader = new JsonTextReader(streamReader))
 					{
-						return new JsonSerializer().Deserialize<PersonDto[]>(jsonTextReader);
+						return _serializer.Deserialize<PersonDto[]>(jsonTextReader);
 					}
 				}
 			}
