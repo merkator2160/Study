@@ -21,9 +21,9 @@ namespace SerializationTask.Services
 
 
 		// IPersonGeneratorService //////////////////////////////////////////////////////////////////////
-		public PersonDto[] Create()
+		public IEnumerable<PersonDto> Create()
 		{
-			return CreatePersons(_config.NumberOfPersons).ToArray();
+			return CreatePersons(_config.NumberOfPersons);
 		}
 
 
@@ -45,8 +45,8 @@ namespace SerializationTask.Services
 				FirstName = $"First name of {personId}",
 				LastName = $"Last name of {personId}",
 				SequenceId = sequence,
-				CreditCardNumbers = RandomCreditCardNumberGenerator.GenerateMasterCardNumbers(_rnd.Next(10)).ToArray(),
-				Phones = CreatePhones(_rnd.Next(50)).ToArray(),
+				CreditCardNumbers = RandomCreditCardNumberGenerator.GenerateMasterCardNumbers(_rnd.Next(5)).ToArray(),
+				Phones = CreatePhones(_rnd.Next(5)).ToArray(),
 				BirthDate = (DateTime.UtcNow - TimeSpan.FromDays(_rnd.Next(10 * 365, 50 * 365))).ToPosixTimeSec(),
 				Salary = _rnd.Next(50000, 150000),
 				IsMarred = _rnd.NextDouble() > 0.5,

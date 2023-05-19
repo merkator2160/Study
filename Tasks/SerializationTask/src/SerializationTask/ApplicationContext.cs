@@ -1,43 +1,43 @@
-﻿using Autofac;
-using SerializationTask.Common.Contracts.Const;
+﻿using Autofac.Features.Indexed;
 using SerializationTask.Services;
 using SerializationTask.Services.Interfaces;
 using SerializationTask.Services.Models;
+using SerializationTask.Services.Models.Enums;
 
 namespace SerializationTask
 {
     internal class ApplicationContext
 	{
 		private readonly PersonCreatorService _personCreatorService;
-        private readonly ILifetimeScope _lifetimeScope;
+        private readonly IIndex<DataStorage, IDataStorageProvider> _dataStorage;
 
 
-        public ApplicationContext(PersonCreatorService personCreatorService, ILifetimeScope lifetimeScope)
+        public ApplicationContext(PersonCreatorService personCreatorService, IIndex<DataStorage, IDataStorageProvider> dataStorage)
 		{
 			_personCreatorService = personCreatorService;
-            _lifetimeScope = lifetimeScope;
+            _dataStorage = dataStorage;
         }
 
 
 		// FUNCTIONS ////////////////////////////////////////////////////////////////////////////////////
-		public void Run()
-		{
-            var dataStorageProvider = _lifetimeScope.ResolveNamed<IDataStorageProvider>(DataStorage.FileSystem);
-            var persons = _personCreatorService.Create();
+        public void Run()
+        {
+            var dataStorageProvider = _dataStorage[DataStorage.Database];
+			var personStream = _personCreatorService.Create();
 
-			dataStorageProvider.Save(persons);
+			dataStorageProvider.Save(personStream);
 
-			persons = null;
+			personStream = null;
 			GC.Collect();
 
-            persons = dataStorageProvider.Restore();
+			personStream = dataStorageProvider.Restore();
 
-			var result = CalculatePersonsCountCreditCardCountAndAverageChildAge(persons);
+			var result = CalculatePersonsCountCreditCardCountAndAverageChildAge(personStream);
 			DisplayResult(result);
 
 			Console.ReadKey();
 		}
-		private StepSixResultDto CalculatePersonsCountCreditCardCountAndAverageChildAge(PersonDto[] persons)
+		private StepSixResultDto CalculatePersonsCountCreditCardCountAndAverageChildAge(IEnumerable<PersonDto> persons)
 		{
 			var personsCount = 0;
 			var numberOfCreditCards = 0;

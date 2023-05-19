@@ -14,4 +14,12 @@
     <ProjectReference Include="..\SerializationTask.Common\SerializationTask.Common.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <EditorConfigFiles Remove="F:\GitHub\Study\Tasks\SerializationTask\src\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="F:\GitHub\Study\Tasks\SerializationTask\src\.editorconfig" />
+  </ItemGroup>
+
 </Project>

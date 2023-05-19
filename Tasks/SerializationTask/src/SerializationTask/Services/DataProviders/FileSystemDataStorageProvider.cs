@@ -24,32 +24,39 @@ namespace SerializationTask.Services.DataProviders
         }
 
 
-		// IDataStorageProvider ///////////////////////////////////////////////////////////////////
-		public void Save(PersonDto[] persons)
-		{
-			using(var stream = new FileStream(_config.FilePath, FileMode.Create, FileAccess.Write))
-			{
-				using(var streamWriter = new StreamWriter(stream, Encoding.UTF8))
-				{
-					using(var textWriter = new JsonTextWriter(streamWriter))
-					{
-                        _serializer.Serialize(textWriter, persons, typeof(PersonDto[]));
-					}
-				}
-			}
-		}
-		public PersonDto[] Restore()
-		{
-			using(var stream = new FileStream(_config.FilePath, FileMode.Open, FileAccess.Read))
-			{
-				using(var streamReader = new StreamReader(stream, Encoding.UTF8))
-				{
-					using(var jsonTextReader = new JsonTextReader(streamReader))
-					{
-						return _serializer.Deserialize<PersonDto[]>(jsonTextReader);
-					}
-				}
-			}
-		}
-	}
+        // IDataStorageProvider ///////////////////////////////////////////////////////////////////
+        public void Save(IEnumerable<PersonDto> persons)
+        {
+            using (var stream = new FileStream(_config.FilePath, FileMode.Create, FileAccess.Write))
+            {
+                using (var streamWriter = new StreamWriter(stream, Encoding.UTF8))
+                {
+                    using (var textWriter = new JsonTextWriter(streamWriter))
+                    {
+                        _serializer.Serialize(textWriter, persons, typeof(IEnumerable<PersonDto>));
+                    }
+                }
+            }
+        }
+        public IEnumerable<PersonDto> Restore()
+        {
+            using (var stream = new FileStream(_config.FilePath, FileMode.Open, FileAccess.Read))
+            {
+                using (var streamReader = new StreamReader(stream, Encoding.UTF8))
+                {
+                    using (var reader = new JsonTextReader(streamReader))
+                    {
+                        while (reader.Read())
+                        {
+                            // Deserialize only when there's "{" character in the stream
+                            if (reader.TokenType == JsonToken.StartObject)
+                            {
+                                yield return _serializer.Deserialize<PersonDto>(reader);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

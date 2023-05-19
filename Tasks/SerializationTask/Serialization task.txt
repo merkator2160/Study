@@ -1,10 +1,10 @@
-Create a program which will execute the next steps:
-1) Create collection of randomly generated objects in memory by provided models, number of objects 10000;
-2) Serialize it to JSON format;
-3) Write the serialization result to the current user desktop directory, the file name should be "Persons.json";
-4) Clear the in memory collection;
-5) Read objects from file;
-6) Display in console persons count, persons credit card count, the average value of child age.
+Create a program which will do the next steps:
+	1) Create collection of randomly generated objects in memory by provided models, number of objects 10000;
+	2) Serialize it to JSON format;
+	3) Write the serialization result to the current user desktop directory, the file name should be "Persons.json";
+	4) Clear the in memory collection;
+	5) Read objects from file;
+	6) Display in console persons count, persons credit card count, the average value of child age.
 
 Use POSIX format for dates.
 Use lowerCamelCase JSON notation in resulted file.
@@ -37,4 +37,6 @@ enum Gender
 	Female
 }
 
-As bonus: Do the same with any database as a storage instead of file.
+Optional, but it will be nice to see: 
+	Do the same with any database as a storage instead of file. 
+	Try to handle a million objects without significant memory consumption.

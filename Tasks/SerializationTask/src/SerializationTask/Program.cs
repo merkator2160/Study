@@ -1,11 +1,11 @@
 ﻿using Autofac;
-using SerializationTask.Common.Contracts.Const;
 using SerializationTask.Common.DependencyInjection;
 using SerializationTask.Common.DependencyInjection.Modules;
 using SerializationTask.Database.DependencyInjection;
 using SerializationTask.Services.DataProviders;
 using SerializationTask.Services.Interfaces;
 using SerializationTask.Services.Models.Config;
+using SerializationTask.Services.Models.Enums;
 
 namespace SerializationTask
 {
@@ -39,11 +39,11 @@ namespace SerializationTask
 
             builder
                 .RegisterType<MongoDbDataStorageProvider>()
-                .Named<IDataStorageProvider>(DataStorage.Database)
+                .Keyed<IDataStorageProvider>(DataStorage.Database)
                 .AsImplementedInterfaces();
             builder
                 .RegisterType<FileSystemDataStorageProvider>()
-                .Named<IDataStorageProvider>(DataStorage.FileSystem)
+                .Keyed<IDataStorageProvider>(DataStorage.FileSystem)
                 .AsImplementedInterfaces();
 
             return builder.Build();
@@ -52,7 +52,7 @@ namespace SerializationTask
         {
             return new RootConfig()
             {
-                NumberOfPersons = 100,
+                NumberOfPersons = 1000000,
                 FilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), "Persons.json")
             };
         }

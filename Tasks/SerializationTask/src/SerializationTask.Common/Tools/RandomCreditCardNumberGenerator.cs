@@ -196,8 +196,7 @@
             }
 
             // calculate check digit
-            var checkdigit =
-                Convert.ToInt32((Math.Floor((Decimal)sum / 10) + 1) * 10 - sum) % 10;
+            var checkdigit = Convert.ToInt32((Math.Floor((Decimal)sum / 10) + 1) * 10 - sum) % 10;
 
             ccnumber += checkdigit;
 

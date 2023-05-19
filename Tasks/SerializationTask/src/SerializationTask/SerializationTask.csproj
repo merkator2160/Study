@@ -26,4 +26,8 @@
     <ProjectReference Include="..\SerializationTask.Database\SerializationTask.Database.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Services\Models\Enums\" />
+  </ItemGroup>
+
 </Project>

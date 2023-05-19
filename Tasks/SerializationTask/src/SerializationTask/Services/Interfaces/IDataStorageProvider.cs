@@ -4,7 +4,7 @@ namespace SerializationTask.Services.Interfaces
 {
     internal interface IDataStorageProvider
 	{
-		void Save(PersonDto[] persons);
-		PersonDto[] Restore();
+		void Save(IEnumerable<PersonDto> persons);
+        IEnumerable<PersonDto> Restore();
 	}
 }

@@ -20,19 +20,14 @@ namespace SerializationTask.Services.DataProviders
 
 
 		// IDataStorageProvider ///////////////////////////////////////////////////////////////////
-		public void Save(PersonDto[] persons)
+		public void Save(IEnumerable<PersonDto> persons)
 		{
-			var personsDb = _mapper.Map<PersonDb[]>(persons);
-
-			_personRepository.CleanCollection();
-			_personRepository.AddMany(personsDb);
+            _personRepository.CleanCollection();
+            _personRepository.AddMany(persons.Select(x => _mapper.Map<PersonDb>(x)));
 		}
-		public PersonDto[] Restore()
+		public IEnumerable<PersonDto> Restore()
 		{
-			var personsDb = _personRepository.GetAll();
-			var persons = _mapper.Map<PersonDto[]>(personsDb);
-
-			return persons;
+			return _personRepository.GetAll().Select(x => _mapper.Map<PersonDto>(x));
 		}
-	}
+    }
 }
