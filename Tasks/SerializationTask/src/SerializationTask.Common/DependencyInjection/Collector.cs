@@ -46,21 +46,6 @@ namespace SerializationTask.Common.DependencyInjection
                 .AsSelf()
                 .AsImplementedInterfaces();
         }
-        public static void RegisterConfiguration(this ContainerBuilder builder, IConfiguration configuration, Assembly[] assembliesToScan)
-        {
-            foreach (var assembly in assembliesToScan)
-            {
-                builder.RegisterConfiguration(configuration, assembly);
-            }
-        }
-        public static void RegisterLocalConfiguration(this ContainerBuilder builder, IConfiguration configuration)
-        {
-            builder.RegisterConfiguration(configuration, Assembly.GetCallingAssembly());
-        }
-        public static void RegisterCommonConfiguration(this ContainerBuilder builder, IConfiguration configuration)
-        {
-            builder.RegisterConfiguration(configuration, Assembly.GetExecutingAssembly());
-        }
         public static void RegisterLocalForms(this ContainerBuilder builder)
         {
             builder.RegisterForms(Assembly.GetCallingAssembly());
@@ -96,6 +81,21 @@ namespace SerializationTask.Common.DependencyInjection
                 .RegisterAssemblyTypes(assemblyToScan)
                 .Where(p => p.IsClass && p.Name.EndsWith("Vm"))
                 .AsSelf();
+        }
+        public static void RegisterLocalConfiguration(this ContainerBuilder builder, IConfiguration configuration)
+        {
+            builder.RegisterConfiguration(configuration, Assembly.GetCallingAssembly());
+        }
+        public static void RegisterCommonConfiguration(this ContainerBuilder builder, IConfiguration configuration)
+        {
+            builder.RegisterConfiguration(configuration, Assembly.GetExecutingAssembly());
+        }
+        public static void RegisterConfiguration(this ContainerBuilder builder, IConfiguration configuration, Assembly[] assembliesToScan)
+        {
+            foreach (var assembly in assembliesToScan)
+            {
+                builder.RegisterConfiguration(configuration, assembly);
+            }
         }
         public static void RegisterConfiguration(this ContainerBuilder builder, IConfiguration configuration, Assembly assemblyToScan)
         {

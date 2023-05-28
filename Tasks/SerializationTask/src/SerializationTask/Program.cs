@@ -37,14 +37,8 @@ namespace SerializationTask
             builder.RegisterModule<ObjectStorageModule>();
             builder.RegisterType<ApplicationContext>();
 
-            builder
-                .RegisterType<MongoDbDataStorageProvider>()
-                .Keyed<IDataStorageProvider>(DataStorage.Database)
-                .AsImplementedInterfaces();
-            builder
-                .RegisterType<FileSystemDataStorageProvider>()
-                .Keyed<IDataStorageProvider>(DataStorage.FileSystem)
-                .AsImplementedInterfaces();
+            builder.RegisterType<MongoDbDataStorageProvider>().Keyed<IDataStorageProvider>(DataStorage.Database);
+            builder.RegisterType<FileSystemDataStorageProvider>().Keyed<IDataStorageProvider>(DataStorage.FileSystem);
 
             return builder.Build();
         }
