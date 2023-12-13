@@ -4,7 +4,7 @@ package grpc.tradeapi.v1;
 
 option csharp_namespace = "Finam.TradeApi.Grpc.V1";
 
-import "proto/tradeapi/v1/portfolios.proto";
+import "finam/proto/tradeapi/v1/portfolios.proto";
 
 
 service Portfolios {
