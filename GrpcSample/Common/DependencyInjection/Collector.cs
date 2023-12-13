@@ -1,10 +1,10 @@
 ﻿using Autofac;
+using Common.Contracts.Exceptions.Application;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyModel;
-using SerializationTask.Common.Contracts.Exceptions.Application;
 using System.Reflection;
 
-namespace SerializationTask.Common.DependencyInjection
+namespace Common.DependencyInjection
 {
     public static class Collector
     {
@@ -150,3 +150,4 @@ namespace SerializationTask.Common.DependencyInjection
             return Assembly.Load(new AssemblyName(DependencyContext.Default.RuntimeLibraries.First(p => p.Name.Equals(name)).Name));
         }
     }
+}

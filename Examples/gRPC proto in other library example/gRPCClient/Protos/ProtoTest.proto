@@ -1,0 +1,19 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "gRPCClientAssembly.Protos";
+
+package MyProtoTestProto;
+
+import "google/protobuf/wrappers.proto";
+import "gRPCOtherAssembly/Protos/ProtoOther.proto";
+
+service ProtoService {
+	rpc Test(Empty) returns (ReturnValue);
+	rpc Test2(MyOtherProto.Id) returns (ReturnValue);
+}
+
+message Empty { }
+
+message ReturnValue {
+	google.protobuf.StringValue Value = 1;
+}

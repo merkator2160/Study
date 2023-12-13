@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+		<PackageReference Include="Google.Protobuf" Version="3.25.1" />
+		<PackageReference Include="Grpc.Net.ClientFactory" Version="2.59.0" />
+		<PackageReference Include="Grpc.Tools" Version="2.59.0">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+ 
+	<ItemGroup>
+	  <ProjectReference Include="..\ApiClients.Http\ApiClientsHttp.csproj" />
+	</ItemGroup>
+ 
+	<ItemGroup>
+		<Protobuf Include="Protos\grpc\tradeapi\v1\securities.proto" ProtoRoot="Protos" GrpcServices="Client" />
+
+	  <Protobuf Include="Protos\proto\tradeapi\v1\common.proto" ProtoRoot="Protos" />
+	  <Protobuf Include="Protos\proto\tradeapi\v1\events.proto" ProtoRoot="Protos" />
+	  <Protobuf Include="Protos\proto\tradeapi\v1\orders.proto" ProtoRoot="Protos" />
+	  <Protobuf Include="Protos\proto\tradeapi\v1\portfolios.proto" ProtoRoot="Protos" />
+	  <Protobuf Include="Protos\proto\tradeapi\v1\security.proto" ProtoRoot="Protos" />
+	  <Protobuf Include="Protos\proto\tradeapi\v1\stops.proto" ProtoRoot="Protos" />
+	</ItemGroup>
+ 
+	<ItemGroup>
+	  <Folder Include="Protos\Finam\" />
+	</ItemGroup>
+	
+</Project>

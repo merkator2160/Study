@@ -1,0 +1,1 @@
+Test-NetConnection tr1-demo.finam.ru -Port 3950

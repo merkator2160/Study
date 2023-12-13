@@ -1,0 +1,10 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "gRPCOtherAssembly.Protos";
+
+package MyOtherProto;
+
+message Id {
+	int32 Id = 1;
+	string Toto = 2;
+}

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gRPCServerAssembly", "gRPCServerAssembly\gRPCServerAssembly.csproj", "{898B3A97-14A9-493E-8E26-2D04032E3D09}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gRPCServer", "gRPCServer\gRPCServer.csproj", "{18A2D00B-E60C-4DDE-9E70-033A80842108}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gRPCClientAssembly", "gRPCClient\gRPCClientAssembly.csproj", "{862F79D6-76FD-4F1B-B563-F3C200FC1F26}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceAssembly", "InterfaceAssembly\InterfaceAssembly.csproj", "{A9F810B6-DB84-4821-875E-0F9FAC9C8A9C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gRPCApp", "gRPCApp\gRPCApp.csproj", "{D8758D50-486E-400E-BF17-70E3ECA85957}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gRPCOtherAssembly", "gRPCOtherAssembly\gRPCOtherAssembly.csproj", "{7A4860F2-DE74-4DF7-AFA3-DD8EBF98EFF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{898B3A97-14A9-493E-8E26-2D04032E3D09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{898B3A97-14A9-493E-8E26-2D04032E3D09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{898B3A97-14A9-493E-8E26-2D04032E3D09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{898B3A97-14A9-493E-8E26-2D04032E3D09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18A2D00B-E60C-4DDE-9E70-033A80842108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18A2D00B-E60C-4DDE-9E70-033A80842108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18A2D00B-E60C-4DDE-9E70-033A80842108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18A2D00B-E60C-4DDE-9E70-033A80842108}.Release|Any CPU.Build.0 = Release|Any CPU
+		{862F79D6-76FD-4F1B-B563-F3C200FC1F26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{862F79D6-76FD-4F1B-B563-F3C200FC1F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{862F79D6-76FD-4F1B-B563-F3C200FC1F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{862F79D6-76FD-4F1B-B563-F3C200FC1F26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9F810B6-DB84-4821-875E-0F9FAC9C8A9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9F810B6-DB84-4821-875E-0F9FAC9C8A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9F810B6-DB84-4821-875E-0F9FAC9C8A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9F810B6-DB84-4821-875E-0F9FAC9C8A9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8758D50-486E-400E-BF17-70E3ECA85957}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8758D50-486E-400E-BF17-70E3ECA85957}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8758D50-486E-400E-BF17-70E3ECA85957}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8758D50-486E-400E-BF17-70E3ECA85957}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A4860F2-DE74-4DF7-AFA3-DD8EBF98EFF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A4860F2-DE74-4DF7-AFA3-DD8EBF98EFF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A4860F2-DE74-4DF7-AFA3-DD8EBF98EFF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A4860F2-DE74-4DF7-AFA3-DD8EBF98EFF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D49A7F4-4AF7-4880-A6B5-2793AEE52E52}
+	EndGlobalSection
+EndGlobal
