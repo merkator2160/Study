@@ -1,10 +1,13 @@
 ﻿using ApiClientsHttp.DependencyInjection;
 using ApiClientsHttp.Finam;
+using ApiClientsHttp.Finam.Models.Config;
 using Autofac;
 using Common.DependencyInjection;
 using Finam.TradeApi.Grpc.V1;
+using Finam.TradeApi.Proto.V1;
 using Grpc.Core;
 using Grpc.Net.Client;
+using Microsoft.Extensions.Configuration;
 
 namespace Sandbox
 {
@@ -12,8 +15,63 @@ namespace Sandbox
     {
         static void Main(String[] args)
         {
-            //UseHttp();
-            UseGrpc();
+            using (var container = CreateContainer())
+            {
+                //UseHttp(container);
+                UseGrpc(container);
+                //UseGrpcStream(container);
+            }
+        }
+        private static void UseHttp(IContainer container)
+        {
+            var client = container.Resolve<FinamHttpClient>();
+
+            var checkTokenResult = client.CheckTokenAsync().Result;
+            //var securities = client.GetSecuritiesAsync().Result;
+            //var portfolio = client.GetPortfolioAsync().Result;
+            //var orders = client.GetOrdersAsync().Result;
+            //var spots = client.GetStopsAsync().Result;
+        }
+        private static void UseGrpc(IContainer container)
+        {
+            var config = container.Resolve<FinamHttpClientConfig>();
+            using (var channel = GrpcChannel.ForAddress(config.BaseAddress))
+            {
+                var securitiesClient = new Securities.SecuritiesClient(channel);
+                var securities = securitiesClient.GetSecurities(new GetSecuritiesRequest(), container.Resolve<Metadata>());
+            }
+        }
+        private static async void UseGrpcStream(IContainer container)
+        {
+            var config = container.Resolve<FinamHttpClientConfig>();
+            using (var channel = GrpcChannel.ForAddress(config.BaseAddress))
+            {
+                var eventsClient = new Events.EventsClient(channel);
+                using (var call = eventsClient.GetEvents(container.Resolve<Metadata>()))
+                {
+                    Console.WriteLine("Starting background task to receive messages");
+
+                    var readTask = Task.Run(async () =>
+                    {
+                        await foreach (var response in call.ResponseStream.ReadAllAsync())
+                        {
+                            Console.WriteLine(response);
+                        }
+                    });
+
+                    Console.WriteLine("Starting to send messages");
+
+                    await call.RequestStream.WriteAsync(new SubscriptionRequest()
+                    {
+                        OrderBookSubscribeRequest = new OrderBookSubscribeRequest()
+                    });
+
+                    Console.WriteLine("Disconnecting");
+
+                    await call.RequestStream.CompleteAsync();
+                    await readTask;
+                }
+            }
         }
 
 
@@ -29,61 +87,11 @@ namespace Sandbox
             builder.RegisterInstance(new Metadata
             {
                 {
-                    "X-Api-Key", "CAEQpJ4IGhhndv/gVDxraomGF072/CxeAg8iA6mUrks="
+                    "X-Api-Key", configuration.GetSection(nameof(FinamHttpClientConfig)).Get<FinamHttpClientConfig>().ApiKey
                 }
             });
 
             return builder.Build();
-        }
-        private static void UseHttp()
-        {
-            using (var container = CreateContainer())
-            {
-                var client = container.Resolve<FinamHttpClient>();
-
-                var checkTokenResult = client.CheckTokenAsync().Result;
-                //var securities = client.GetSecuritiesAsync().Result;
-                //var portfolio = client.GetPortfolioAsync().Result;
-                //var orders = client.GetOrdersAsync().Result;
-                //var spots = client.GetStopsAsync().Result;
-            }
-        }
-        private static async void UseGrpc()
-        {
-            using (var container = CreateContainer())
-            {
-                using (var channel = GrpcChannel.ForAddress("https://trade-api.finam.ru"))
-                {
-                    var securitiesClient = new Securities.SecuritiesClient(channel);
-                    var securities = securitiesClient.GetSecurities(new GetSecuritiesRequest(), container.Resolve<Metadata>());
-
-                    //var eventsClient = new Events.EventsClient(channel);
-                    //using (var call = eventsClient.GetEvents(container.Resolve<Metadata>()))
-                    //{
-                    //    Console.WriteLine("Starting background task to receive messages");
-
-                    //    var readTask = Task.Run(async () =>
-                    //    {
-                    //        await foreach (var response in call.ResponseStream.ReadAllAsync())
-                    //        {
-                    //            Console.WriteLine(response);
-                    //        }
-                    //    });
-
-                    //    Console.WriteLine("Starting to send messages");
-
-                    //    await call.RequestStream.WriteAsync(new SubscriptionRequest()
-                    //    {
-                    //        OrderBookSubscribeRequest = new OrderBookSubscribeRequest()
-                    //    });
-
-                    //    Console.WriteLine("Disconnecting");
-
-                    //    await call.RequestStream.CompleteAsync();
-                    //    await readTask;
-                    //}
-                }
-            }
         }
     }
 }

@@ -1,6 +1,8 @@
 ﻿using Autofac;
+using Common.Contracts.Config;
 using Common.DependencyInjection;
 using Common.DependencyInjection.Modules;
+using Grpc.Core;
 using Grpc.Net.Client;
 using Server;
 using System.Reflection;
@@ -13,13 +15,49 @@ namespace Client
         {
             using (var container = CreateContainer())
             {
-                using (var channel = GrpcChannel.ForAddress("https://localhost:7120"))
+                //MakeGreeterCall(container);
+                UseGreeterStream(container);
+            }
+        }
+
+
+        // SUPPORT FUNCTIONS ////////////////////////////////////////////////////////////////////////////
+        private static void MakeGreeterCall(IContainer container)
+        {
+            var serverConfig = container.Resolve<ServerConfig>();
+            using (var channel = GrpcChannel.ForAddress(serverConfig.BaseAddress))
+            {
+                var greeterClient = new Repeater.RepeaterClient(channel);
+                var reply = greeterClient.SendEcho(new Request()
                 {
-                    var greeterClient = new Greeter.GreeterClient(channel);
-                    var reply = greeterClient.SayHello(new HelloRequest()
+                    Message = "Test"
+                });
+            }
+        }
+        private static async void UseGreeterStream(IContainer container)
+        {
+            var serverConfig = container.Resolve<ServerConfig>();
+            using (var channel = GrpcChannel.ForAddress(serverConfig.BaseAddress))
+            {
+                var repeaterClient = new Repeater.RepeaterClient(channel);
+                using (var call = repeaterClient.StartEventsStream())
+                {
+                    var readTask = Task.Run(async () =>
                     {
-                        Name = "Test"
+                        await foreach (var response in call.ResponseStream.ReadAllAsync())
+                        {
+                            Console.WriteLine(response);
+                        }
                     });
+
+                    
+                    await call.RequestStream.WriteAsync(new Request()
+                    {
+                        Message = "Test"
+                    });
+
+                    await call.RequestStream.CompleteAsync();
+                    await readTask;
                 }
             }
         }
@@ -37,7 +75,7 @@ namespace Client
 
             builder.RegisterInstance(configuration).AsSelf().AsImplementedInterfaces();
             builder.RegisterServices(currentAssembly);
-            builder.RegisterConfiguration(configuration, currentAssembly);
+            builder.RegisterConfiguration(configuration, assemblies);
             
             builder.RegisterModule(new AutoMapperModule(assemblies));
 

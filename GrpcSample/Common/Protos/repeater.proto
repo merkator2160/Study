@@ -6,18 +6,19 @@ package greet;
 
 
 // SERVICE ////////////////////////////////////////////////////////////////////////////////////////
-service Greeter 
+service Repeater 
 {
-	rpc SayHello (HelloRequest) returns (HelloReply);
+	rpc SendEcho (Request) returns (Reply);
+	rpc StartEventsStream (stream Request) returns (stream Reply);
 }
 
 
 // MESSAGES ///////////////////////////////////////////////////////////////////////////////////////
-message HelloRequest 
+message Request 
 {
-	string name = 1;
+	string message = 1;
 }
-message HelloReply 
+message Reply 
 {
 	string message = 1;
 }

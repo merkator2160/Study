@@ -21,6 +21,7 @@
  
 	<ItemGroup>
 		<Protobuf Include="Protos\finam\grpc\tradeapi\v1\securities.proto" ProtoRoot="Protos" GrpcServices="Client" />
+		<Protobuf Include="Protos\finam\grpc\tradeapi\v1\events.proto" ProtoRoot="Protos" GrpcServices="Client" />
 
 	  <Protobuf Include="Protos\finam\proto\tradeapi\v1\common.proto" ProtoRoot="Protos" />
 	  <Protobuf Include="Protos\finam\proto\tradeapi\v1\events.proto" ProtoRoot="Protos" />

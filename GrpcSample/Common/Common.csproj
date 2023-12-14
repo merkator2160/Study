@@ -29,7 +29,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Update="Protos\greet.proto">
+	  <None Update="Protos\repeater.proto">
 	    <GrpcServices>Server</GrpcServices>
 	  </None>
 	</ItemGroup>

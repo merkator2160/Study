@@ -13,7 +13,7 @@ namespace Server
 
             var app = builder.Build();
 
-            app.MapGrpcService<GreeterService>();
+            app.MapGrpcService<RepeaterService>();
             app.MapGet("/", () => $"gRPC server v{Assembly.GetExecutingAssembly().GetName().Version}");
 
             app.Run();

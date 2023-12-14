@@ -7,6 +7,18 @@
     <Nullable>disable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="appsettings.Development.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="appsettings.Development.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
 	<ItemGroup>
 		<PackageReference Include="Google.Protobuf" Version="3.25.1" />
 		<PackageReference Include="Grpc.Net.ClientFactory" Version="2.59.0" />
@@ -21,8 +33,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Protobuf Include="..\Common\Protos\greet.proto" GrpcServices="Client">
-      <Link>Protos\greet.proto</Link>
+    <Protobuf Include="..\Common\Protos\repeater.proto" GrpcServices="Client">
+      <Link>Protos\repeater.proto</Link>
     </Protobuf>
   </ItemGroup>
 
