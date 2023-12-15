@@ -2,6 +2,7 @@
 using Common.Contracts.Config;
 using Common.DependencyInjection;
 using Common.DependencyInjection.Modules;
+using Google.Protobuf.WellKnownTypes;
 using Grpc.Core;
 using Grpc.Net.Client;
 using Server;
@@ -15,14 +16,16 @@ namespace Client
         {
             using (var container = CreateContainer())
             {
-                //MakeGreeterCall(container);
-                UseGreeterStream(container);
+                CallBasicGreeterCall(container);
+                //CallGreeterClientStream(container);
+                //CallGreeterServerStream(container);
+                //CallGreeterDuplexStream(container);
             }
         }
 
 
         // SUPPORT FUNCTIONS ////////////////////////////////////////////////////////////////////////////
-        private static void MakeGreeterCall(IContainer container)
+        private static void CallBasicGreeterCall(IContainer container)
         {
             var serverConfig = container.Resolve<ServerConfig>();
             using (var channel = GrpcChannel.ForAddress(serverConfig.BaseAddress))
@@ -30,17 +33,60 @@ namespace Client
                 var greeterClient = new Repeater.RepeaterClient(channel);
                 var reply = greeterClient.SendEcho(new Request()
                 {
-                    Message = "Test"
+                    Content = "Test"
                 });
             }
         }
-        private static async void UseGreeterStream(IContainer container)
+        private static async void CallGreeterClientStream(IContainer container)
         {
             var serverConfig = container.Resolve<ServerConfig>();
             using (var channel = GrpcChannel.ForAddress(serverConfig.BaseAddress))
             {
                 var repeaterClient = new Repeater.RepeaterClient(channel);
-                using (var call = repeaterClient.StartEventsStream())
+                using (var clientStream = repeaterClient.StartClientStream())
+                {
+                    for (int i = 0; i < 10; i++)
+                    {
+                        await clientStream.RequestStream.WriteAsync(new Request
+                        {
+                            Content = $"Message {i}"
+                        });
+                        await Task.Delay(1000);
+                    }
+
+                    await clientStream.RequestStream.CompleteAsync();
+                    var response = await clientStream.ResponseAsync;
+
+                    Console.WriteLine(response.Content);
+                }
+            }
+        }
+        private static async void CallGreeterServerStream(IContainer container)
+        {
+            var serverConfig = container.Resolve<ServerConfig>();
+            using (var channel = GrpcChannel.ForAddress(serverConfig.BaseAddress))
+            {
+                var repeaterClient = new Repeater.RepeaterClient(channel);
+                using (var clientStream = repeaterClient.StartClientStream())
+                {
+                    var serverData = repeaterClient.StartServerStream(new Empty());
+                    
+                    var responseStream = serverData.ResponseStream;
+                    while (await responseStream.MoveNext(new CancellationToken()))
+                    {
+                        var response = responseStream.Current;
+                        Console.WriteLine(response.Content);
+                    }
+                }
+            }
+        }
+        private static async void MakeGreeterDuplexStream(IContainer container)
+        {
+            var serverConfig = container.Resolve<ServerConfig>();
+            using (var channel = GrpcChannel.ForAddress(serverConfig.BaseAddress))
+            {
+                var repeaterClient = new Repeater.RepeaterClient(channel);
+                using (var call = repeaterClient.StartEchoDuplexStreamStream())
                 {
                     var readTask = Task.Run(async () =>
                     {
@@ -53,7 +99,7 @@ namespace Client
                     
                     await call.RequestStream.WriteAsync(new Request()
                     {
-                        Message = "Test"
+                        Content = "Test"
                     });
 
                     await call.RequestStream.CompleteAsync();

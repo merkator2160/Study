@@ -4,21 +4,24 @@ option csharp_namespace = "Server";
 
 package greet;
 
+import "google/protobuf/empty.proto";
 
 // SERVICE ////////////////////////////////////////////////////////////////////////////////////////
 service Repeater 
 {
-	rpc SendEcho (Request) returns (Reply);
-	rpc StartEventsStream (stream Request) returns (stream Reply);
+	rpc SendEcho (Request) returns (Response);
+	rpc StartClientStream (stream Request) returns (Response);
+	rpc StartServerStream (google.protobuf.Empty) returns (stream Response);
+	rpc StartEchoDuplexStreamStream (stream Request) returns (stream Response);
 }
 
 
 // MESSAGES ///////////////////////////////////////////////////////////////////////////////////////
 message Request 
 {
-	string message = 1;
+	string Content = 1;
 }
-message Reply 
+message Response 
 {
-	string message = 1;
+	string Content = 1;
 }

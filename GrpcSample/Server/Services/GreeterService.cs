@@ -1,5 +1,7 @@
+using Google.Protobuf.WellKnownTypes;
 using Grpc.Core;
 using System.Collections.Concurrent;
+using System.Diagnostics;
 
 namespace Server.Services
 {
@@ -17,20 +19,43 @@ namespace Server.Services
 
 
         // FUNCTIONS //////////////////////////////////////////////////////////////////////////////
-        public override Task<Reply> SendEcho(Request request, ServerCallContext context)
+        public override Task<Response> SendEcho(Request request, ServerCallContext context)
         {
-            return Task.FromResult(new Reply
+            return Task.FromResult(new Response
             {
-                Message = $"Echo: {request.Message}"
+                Content = $"Echo: {request.Content}"
             });
         }
-        public override async Task StartEventsStream(IAsyncStreamReader<Request> requestStream, IServerStreamWriter<Reply> responseStream, ServerCallContext context)
+        public override async Task<Response> StartClientStream(IAsyncStreamReader<Request> requestStream, ServerCallContext context)
+        {
+            await foreach (var item in requestStream.ReadAllAsync())
+            {
+                Trace.TraceInformation(item.Content);
+            }
+            
+            return new Response()
+            {
+                Content = "Data received"
+            };
+        }
+        public override async Task StartServerStream(Empty request, IServerStreamWriter<Response> responseStream, ServerCallContext context)
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                await responseStream.WriteAsync(new Response
+                {
+                    Content = $"Message {i}"
+                });
+                await Task.Delay(1000);
+            }
+        }
+        public override async Task StartEchoDuplexStreamStream(IAsyncStreamReader<Request> requestStream, IServerStreamWriter<Response> responseStream, ServerCallContext context)
         {
             var readTask = Task.Run(async () =>
             {
                 await foreach (var message in requestStream.ReadAllAsync())
                 {
-                    _messageQueue.Enqueue(message.Message);
+                    _messageQueue.Enqueue(message.Content);
                 }
             });
 
@@ -40,9 +65,9 @@ namespace Server.Services
                 {
                     if (_messageQueue.TryDequeue(out var message))
                     {
-                        await responseStream.WriteAsync(new Reply
+                        await responseStream.WriteAsync(new Response
                         {
-                            Message = $"Echo: {message}"
+                            Content = $"Echo: {message}"
                         });
                     }
                 }
