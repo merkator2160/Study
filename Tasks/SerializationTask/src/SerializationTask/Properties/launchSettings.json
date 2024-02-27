@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SerializationTask": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

@@ -22,11 +22,7 @@ namespace SerializationTask.Common.DependencyInjection
         }
         public static void RegisterServices(this ContainerBuilder builder, Assembly assemblyToScan)
         {
-            builder
-                .RegisterAssemblyTypes(assemblyToScan)
-                .Where(p => p.IsClass && p.Name.EndsWith("Service"))
-                .AsSelf()
-                .AsImplementedInterfaces();
+            builder.RegisterAssemblyTypes(assemblyToScan).Where(p => p.IsClass && p.Name.EndsWith("Service")).AsSelf().AsImplementedInterfaces();
         }
 
         // Hangfire //
@@ -43,11 +39,7 @@ namespace SerializationTask.Common.DependencyInjection
         }
         public static void RegisterHangfireJobs(this ContainerBuilder builder, Assembly assemblyToScan)
         {
-            builder
-                .RegisterAssemblyTypes(assemblyToScan)
-                .Where(p => p.IsClass && p.Name.EndsWith("Job"))
-                .AsSelf()
-                .AsImplementedInterfaces();
+            builder.RegisterAssemblyTypes(assemblyToScan).Where(p => p.IsClass && p.Name.EndsWith("Job")).AsSelf().AsImplementedInterfaces();
         }
 
         // Configuration
@@ -93,10 +85,7 @@ namespace SerializationTask.Common.DependencyInjection
         }
         public static void RegisterForms(this ContainerBuilder builder, Assembly assemblyToScan)
         {
-            builder
-                .RegisterAssemblyTypes(assemblyToScan)
-                .Where(p => p.IsClass && p.Name.EndsWith("Form"))
-                .AsSelf();
+            builder.RegisterAssemblyTypes(assemblyToScan).Where(p => p.IsClass && p.Name.EndsWith("Form")).AsSelf();
         }
 
         // View models
@@ -113,10 +102,7 @@ namespace SerializationTask.Common.DependencyInjection
         }
         public static void RegisterViewModels(this ContainerBuilder builder, Assembly assemblyToScan)
         {
-            builder
-                .RegisterAssemblyTypes(assemblyToScan)
-                .Where(p => p.IsClass && p.Name.EndsWith("Vm"))
-                .AsSelf();
+            builder.RegisterAssemblyTypes(assemblyToScan).Where(p => p.IsClass && p.Name.EndsWith("Vm")).AsSelf();
         }
 
         // Other
@@ -128,16 +114,11 @@ namespace SerializationTask.Common.DependencyInjection
             if (DependencyContext.Default != null)
             {
                 // Not all assemblies can be loaded by AppDomain.CurrentDomain.GetAssemblies()
-                assemblies = DependencyContext.Default.RuntimeLibraries
-                    .Where(d => d.Name.Contains(partOfName))
-                    .Select(p => Assembly.Load(new AssemblyName(p.Name)))
-                    .ToArray();
+                assemblies = DependencyContext.Default.RuntimeLibraries.Where(d => d.Name.Contains(partOfName)).Select(p => Assembly.Load(new AssemblyName(p.Name))).ToArray();
             }
             else
             {
-                assemblies = AppDomain.CurrentDomain.GetAssemblies()
-                    .Where(d => d.GetName().Name.Contains(partOfName))
-                    .ToArray();
+                assemblies = AppDomain.CurrentDomain.GetAssemblies().Where(d => d.GetName().Name.Contains(partOfName)).ToArray();
             }
 
             if (assemblies.Length == 0)
@@ -150,3 +131,4 @@ namespace SerializationTask.Common.DependencyInjection
             return Assembly.Load(new AssemblyName(DependencyContext.Default.RuntimeLibraries.First(p => p.Name.Equals(name)).Name));
         }
     }
+}
