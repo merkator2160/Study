@@ -3,11 +3,12 @@ Create a program which will do the next steps:
 	2) Serialize it to JSON format;
 	3) Write the serialization result to the current user desktop directory, the file name should be "Persons.json";
 	4) Clear the in memory collection;
-	5) Read objects from file;
+	5) Restore collection from file;
 	6) Display in console persons count, persons credit card count, the average value of child age.
 
 Use POSIX format for dates.
 Use lowerCamelCase JSON notation in resulted file.
+
 
 Data models:
 class Person

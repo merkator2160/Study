@@ -1,0 +1,46 @@
+// ADMIN //////////////////////////////////////////////////////////////////////////////////////////
+use admin
+db.createUser(
+{
+    user: "<YourUserName>",
+    pwd: "<YourPassword>",
+    roles: [
+				{ role: "userAdminAnyDatabase", db: "admin" },
+				{ role: "readWriteAnyDatabase", db: "admin" },
+				{ role: "dbAdminAnyDatabase", db: "admin" },
+				{ role: "clusterAdmin", db: "admin" },
+				{ role: "restore", db: "admin" },
+				{ role: "backup", db: "admin" }
+			]
+})
+or:		// Both approachea are equals
+db.createUser(
+{
+	user: 'admin',
+	pwd: 'password',
+	roles: [ { role: 'root', db: 'admin' } ]
+});
+
+
+// DB OWNER ///////////////////////////////////////////////////////////////////////////////////////
+use admin
+db.createUser(
+{
+     user: "<dbUser>",
+     pwd: "<dbPassword>",
+     roles: [ 
+				{ role: "readWrite", db: "<dbName>" },
+				{ role: "dbAdmin", db: "<dbName>" },
+			]
+})
+
+
+// ROLES //////////////////////////////////////////////////////////////////////////////////////////
+db.grantRolesToUser("<dbUser>", [{ role: '<roleName>', db: '<dbName>' }])
+db.revokeRolesFromUser('<dbUser>', [{ role: '<roleName>', db: '<dbName>' }])
+
+
+// USER ///////////////////////////////////////////////////////////////////////////////////////////
+db.getUser("<username>")
+db.changeUserPassword('<dbUser>', '<newPassword>')
+db.dropUser('<dbUser>')

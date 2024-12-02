@@ -10,14 +10,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 		..\..\..\.gitignore = ..\..\..\.gitignore
 		..\clean-with-scc.bat = ..\clean-with-scc.bat
+		..\MongoDB scripts.txt = ..\MongoDB scripts.txt
 		..\Serialization task.txt = ..\Serialization task.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializationTask.UnitTests", "SerializationTask.UnitTests\SerializationTask.UnitTests.csproj", "{9E39FDD4-470B-4BEE-99E5-AD9AF002CE18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerializationTask.UnitTests", "SerializationTask.UnitTests\SerializationTask.UnitTests.csproj", "{9E39FDD4-470B-4BEE-99E5-AD9AF002CE18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializationTask.Common", "SerializationTask.Common\SerializationTask.Common.csproj", "{BF20E5B7-19BD-475B-84D3-F037AA4FF80F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerializationTask.Common", "SerializationTask.Common\SerializationTask.Common.csproj", "{BF20E5B7-19BD-475B-84D3-F037AA4FF80F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializationTask.Database", "SerializationTask.Database\SerializationTask.Database.csproj", "{0C94E791-DF71-4E9F-9403-FC942633B16D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerializationTask.Database", "SerializationTask.Database\SerializationTask.Database.csproj", "{0C94E791-DF71-4E9F-9403-FC942633B16D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5164BFCF-2BDA-4B41-B36A-5C0D1CA0F202}"
 EndProject
